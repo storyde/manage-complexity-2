@@ -1,0 +1,63 @@
+title: Future Resource Base - Environment
+subtitle: Our Future Landscape
+on-arrival: progress = 25
+
+Facilyn: The second element is land — the environment — even if your connection to it feels indirect.
+
+Facilyn: Describe how the land and environment must be, far into the future, to sustain your quality of life. Even if you don’t manage land directly, you still depend on air, water, food — all of it.
+
+Facilyn: We'll think in terms of the four ecosystem processes: water cycle, mineral cycle, community dynamics, and energy flow.
+
+- #environment_aspects
+
+@frbe_explanation
+title: What are the ecosystem processes?
+max-visits: 1
+order: 10
+tags: environment_aspects
+
+Me: What are the ecosystem processes?
+
+Facilyn: I mean four big processes we can notice in any landscape:
+
+Facilyn: **Water Cycle**: How effectively the land catches and holds rain.
+
+Facilyn: **Mineral Cycle**: How well nutrients circulate through soil and plants.
+
+Facilyn: **Community Dynamics**: How diverse and resilient the community of life is.
+
+Facilyn: **Energy Flow**: How much sunlight is captured and turned into life.
+
+Facilyn: You don’t need to be a scientist. Just describe what you need: stable, productive, healthy surroundings — covered soils, clean water, thriving biodiversity.
+
+Facilyn: Not how things are today. How they must be, to hold up your quality of life for generations.
+
+Outside, the rain grows heavier. A worker pulls a cover across a crate near the waterline and ties it down. 
+
+They pause briefly, watching the rain find its way into the harbor in a hundred small streams.
+
+- #environment_aspects
+
+@frbe_detailed_scientific
+title: Renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity
+on-arrival: frb-environment = "renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity"
+go-to: 22_holtext
+tags: environment_aspects
+
+Me: Renewed water and mineral cycles, thriving community dynamics, resilient energy flow and rich biodiversity
+
+@frbe_descriptive_visionary
+title: Healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life
+on-arrival: frb-environment = "healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life"
+go-to: 22_holtext
+tags: environment_aspects
+
+Me: Healthy, biologically diverse land with covered soils and clear, perennial streams; strong community dynamics and energy flow through complex webs of life
+
+@frbe_simple_grounded
+title: Stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics
+on-arrival: frb-environment = "stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics"
+go-to: 22_holtext
+tags: environment_aspects
+
+Me: Stable, productive surroundings with clean water, covered fertile soils, restored water and mineral cycles, and biodiversity that supports resilient community dynamics

@@ -1,0 +1,46 @@
+title: Info
+new-page: true
+
+# This scene contains information for the right sidebar.
+
+= 🚧 Under development. 🛠️ 
+
+**Expect bugs** 🐞 
+
+🍀 Tell us where to find them. 
+
+[? if progress > 6 : <h1>Knowledge: </h1> ?]
+
+[? if progress > 6 : <details><summary>Complexity</summary><p>Complexity refers to self-organising systems that in contrast to machines we do not produce, but manage.</p></details> ?]
+
+[? if progress > 7 : <details><summary>Whole Under Management</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+
+[? if progress > 8 : <details><summary>Decision makers</summary><p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p></details> ?]
+
+[? if progress > 11 : <details><summary>Resource base</summary><p>Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).</p></details> ?]
+
+[? if progress > 26 : <details><summary>Holistic context</summary><p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br> • The quality of life you want<br> • The future resource base needed to sustain it</p></details> ?]
+
+[? if progress > 13 and player = "org" : <details><summary>Holistic context for organisations</summary><p>For organisations, the Holistic Context also includes a statement of purpose for the organisation.</p></details> ?]
+
+[? if progress > 26 : <h1>The seven filter questions: </h1> ?]
+
+[? if progress > 26 : <details><summary>Filter questions</summary><p>They are the seven context checks that help you test any action against your holistic context, so you avoid solutions that look good today but create problems tomorrow.</p></details> ?]
+
+[? if progress > 27 : <details><summary>When an action fails a check</summary><p>It does not automatically mean “never do it”. It means you have learned where the risk is. You can modify the action, choose a different action, or proceed knowing what you must monitor and control.</p></details> ?]
+
+[? if progress > 27 : <details><summary>Cause and effect</summary><p>Does this action address the root cause of the problem?</p></details> ?]
+
+[? if progress > 29 : <details><summary>Weak link</summary><p>Social: Could this action, due to prevailing attitudes or beliefs, create a weak link between us and those whose support we need?</p><p>Biological: Does this action address the weakest link in the life cycle of this organism?</p><p>Financial: Does this action strengthen the weakest link in the chain of production?</p></details> ?]
+
+[? if progress > 33 : <details><summary>Marginal reaction</summary><p>Which action provides the greatest return toward the goal for each additional unit of time or money invested?</p></details> ?]
+
+[? if progress > 34 : <details><summary>Gross profit analysis</summary><p>Which enterprises contribute the most to covering the overheads of the business?</p></details> ?]
+
+[? if progress > 35 : <details><summary>Energy/money source and use</summary><p>Is the energy or money to be used in this action derived from the most appropriate source in terms of our holistic context?</p><p>Will the way in which the energy or money is used be in line with our holistic context?</p></details> ?]
+
+[? if progress > 36 : <details><summary>Sustainability</summary><p>If we take this action, will it lead toward or away from the future resource base described in our holistic context?</p></details> ?]
+
+[? if progress > 38 : <details><summary>Gut feel</summary><p>How do we feel about this action now?</p><p>Will it lead to the quality of life we desire?</p><p>Will it adversely affect the lives of others?</p></details> ?]
+
+[? if progress > 39 : <details><summary>Why gut feel is last</summary><p>Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.</p></details> ?]

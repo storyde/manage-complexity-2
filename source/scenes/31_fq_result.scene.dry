@@ -1,0 +1,10 @@
+title: Filter Questions Result
+subtitle: Summary of your analysis
+on-arrival: fltr-result = "visited"; progress = 40
+go-to: 32_fq_revisit
+
+Facilyn: You’ve now run your decision through the checks. Let’s review what you found.
+
+She places the paper between you.
+
+Paper: • **Cause and Effect**: [+ fltr-cause +] <br> • **Social Weak Link**: [+ wl-social +] <br> • **Biological Weak Link**: [+ wl-biological +] <br> • **Financial Weak Link**: [+ wl-financial +] <br> • **Marginal Reaction**: [+ fltr-marginal +] <br> • **Gross Profit**: [+ fltr-profit +] <br> • **Energy/Money Source**: [+ em-source +] <br> • **Energy/Money Use**: [+ em-use +] <br> • **Behaviour**: [+ sus-behaviour +] <br> • **Environment**: [+ sus-environment +] <br> • **Gut Feel**: [+ fltr-gut +]

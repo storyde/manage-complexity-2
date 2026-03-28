@@ -1,0 +1,29 @@
+title: Tutorial
+subtitle: Instructions
+order: 2
+is-special: true
+new-page: true
+tags: root
+
+= Tutorial
+
+**This story plays like a chat.**
+
+<ul>
+  <li>Click an answer to continue. </li>
+  <li>If you can’t see the newest message, scroll.</li>
+  <li>New content appears below this bar: </li>
+</ul>
+
+<hr id="read-marker" role="separator" data-enhanced="1"> 
+
+= Sidebars
+
+**Use the buttons in the top bar to open the side panels:**
+
+<ul>
+  <li>Progress (map icon): shows what you’ve done so far.</li>
+  <li>Info (info icon): shows helpful context and lets you toggle theme and save/load.</li>
+</ul>
+
+- @backSpecialScene: Back

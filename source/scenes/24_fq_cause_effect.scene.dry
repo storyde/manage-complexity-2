@@ -1,0 +1,57 @@
+title: Cause and Effect Check
+subtitle: Addressing Root Causes
+on-arrival: progress = 28
+
+Facilyn: The first check helps you avoid treating symptoms while the real cause keeps doing its work.
+
+Facilyn: It asks: "Does this action address the root cause of the problem?"
+
+- #cause_effect
+
+@fqce_explanation
+title: I need help distinguishing cause from symptom
+max-visits: 1
+order: 10
+tags: cause_effect
+
+Me: I need help distinguishing cause from symptom.
+
+Facilyn: Symptoms are what you notice. Causes are what produce them.
+
+Facilyn: If machines keep failing, the symptom is “broken machines.” The cause might be maintenance, training, worn parts — or a workflow that makes careful work impossible.
+
+Facilyn: Once you spot a cause, ask again: “And what causes that?” A few rounds usually gets you closer to the root.
+
+Someone outside tightens a loose sign bracket. The sign stops rattling for a moment — then the wind finds the next weak screw.
+
+- #cause_effect
+
+@fqce_pass
+title: Yes, it addresses the root cause
+on-arrival: fltr-cause = "Passed"
+go-to: 25_fq_weak_link; jumpScene if fltr-result = "visited"
+tags: cause_effect
+
+Me: Yes, it addresses the root cause.
+
+Facilyn: Good. You’re aiming at the root, not just the visible symptoms.
+
+@fqce_fail
+title: No, it only treats symptoms
+on-arrival: fltr-cause = "Failed"
+go-to: 25_fq_weak_link; jumpScene if fltr-result = "visited"
+tags: cause_effect
+
+Me: No, it only treats symptoms.
+
+Facilyn: That matters. Treating symptoms can buy time, but the problem usually returns. Consider what would address the deeper cause.
+
+@fqce_skip
+title: Not sure, let me review this check later
+on-arrival: fltr-cause = "Skipped"
+go-to: 25_fq_weak_link; jumpScene if fltr-result = "visited"
+tags: cause_effect
+
+Me: Not sure, let me review this check later.
+
+Facilyn: If you reach the end and still don’t have clarity, you can circle back. 

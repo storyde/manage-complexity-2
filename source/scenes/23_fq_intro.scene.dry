@@ -1,0 +1,163 @@
+title: Continue to the Seven Context Checks
+on-arrival: progress = 27
+tags: holtext_complete
+new-page: true
+
+Me: Continue to the Seven Context Checks.
+
+Facilyn: In life, in business, in an agency — you’ll make plans, and you’ll face decisions.
+
+Facilyn: What kind of decision would you like to work through?
+
+- #example_types
+
+@xmpl_explanation
+title: I am not sure
+max-visits: 1
+order: 10
+tags: example_types
+
+Me: I am not sure.
+
+Facilyn: Think of any situation with two or more options, where you’re trying to choose the best path forward.
+
+Outside, a child crouches beside a cleaning robot and quietly places a leaf in its path to see what it will do.
+
+- #example_types
+
+@xmpl_custom
+title: I have my own example in mind
+on-arrival: example_type = "I have my own example in mind"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: I have my own example in mind.
+
+Facilyn: Wonderful. 
+
+@xmpl_personal_decision
+title: A personal decision
+on-arrival: example_type = "A personal decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A personal decision.
+
+Facilyn: Excellent. 
+
+@xmpl_community_decision
+title: A decision regarding family, friends or community
+view-if: player = "group"
+on-arrival: example_type = "A decision regarding family, friends or community"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A decision regarding family, friends or community.
+
+Facilyn: Perfect. 
+
+@xmpl_environmental_decision
+title: An environmental or land management decision
+on-arrival: example_type = "An environmental or land management decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: An environmental or land management decision.
+
+Facilyn: Wonderful. This touches on land use, conservation, sustainability practices, or environmental impact.
+
+@xmpl_agricultural_decision
+title: An agricultural decision
+view-if: sector = "agriculture"
+on-arrival: example_type = "An agricultural decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: An agricultural decision.
+
+Facilyn: Great. This touches on crop selection, livestock management, equipment investment, or soil health practices.
+
+@xmpl_business_decision
+title: A business or work-related decision
+view-if: sector = "business"
+on-arrival: example_type = "A business or work-related decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A business or work-related decision.
+
+Facilyn: An excellent choice. Business brings in money, people, resources — and long-term consequences.
+
+@xmpl_cultural_decision
+title: A cultural or creative decision
+view-if: sector = "culture"
+on-arrival: example_type = "A cultural or creative decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A cultural or creative decision.
+
+Facilyn: Intriguing. This touches on artistic projects, preservation of heritage, or community engagement through culture.
+
+@xmpl_educational_decision
+title: An educational or academic decision
+view-if: sector = "education"
+on-arrival: example_type = "An educational or academic decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: An educational or academic decision.
+
+Facilyn: Important. This touches on curriculum changes, research funding, student welfare, or institutional partnerships.
+
+@xmpl_industrial_decision
+title: An industrial or manufacturing decision
+view-if: sector = "industry"
+on-arrival: example_type = "An industrial or manufacturing decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: An industrial or manufacturing decision.
+
+Facilyn: A solid choice. This touches on production methods, supply chain adjustments, safety protocols, or resource efficiency.
+
+@xmpl_nonprofit_decision
+title: A nonprofit or advocacy decision
+view-if: sector = "nonprofit"
+on-arrival: example_type = "A nonprofit or advocacy decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A nonprofit or advocacy decision.
+
+Facilyn: Noble. This touches on campaign strategies, donor relations, volunteer management, or mission alignment.
+
+@xmpl_public_service_decision
+title: A public service or infrastructure decision
+view-if: sector = "publicservice"
+on-arrival: example_type = "A public service or infrastructure decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A public service or infrastructure decision.
+
+Facilyn: Vital. This touches on service delivery, infrastructure maintenance, public health initiatives, or emergency response.
+
+@xmpl_policy_decision
+title: A policymaking or governance decision
+view-if: sector = "policymaking"
+on-arrival: example_type = "A policymaking or governance decision"
+go-to: xmpl_example_chosen
+tags: example_types
+
+Me: A policymaking or governance decision.
+
+Facilyn: Impactful. This could cover legislative changes, regulatory frameworks, international agreements, or budget allocations.
+
+@xmpl_example_chosen
+title: That is a good example
+go-to: 24_fq_cause_effect
+
+Facilyn: To choose your solution, you consider experience, experts' or friends' advice, and laws as always.  
+
+Facilyn: And when you come up with your preferred solution, before you take any action, you will run your decision through the seven context checks to see the likely effect on your whole. 

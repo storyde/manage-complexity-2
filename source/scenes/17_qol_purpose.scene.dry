@@ -1,0 +1,94 @@
+title: Purpose
+on-arrival: progress = 20
+go-to: qolp_organisation if player = "org" 
+
+Facilyn: The next question is about your purpose: What are you about?
+
+[? if player = "one" : Facilyn: This is easier to answer as a group. Even alone, though, you can begin by asking who you care about or what feels worth doing. ?]
+
+- #qol_purpose
+
+@qolp_explanation
+title: What are these questions for?
+max-visits: 1
+order: 10
+tags: qol_purpose
+
+Me: What are these questions for?
+
+Facilyn: These questions help you find personal relevance in what you do. The first is about who you are right now. The next explores your future aspirations. The last is what you want to accomplish.
+
+She turns the cup in her hands, watching the last swirl of steam fade.
+
+- #qol_purpose
+
+# Purpose - Individual
+
+@qolp_ind_learning
+title: Continuous learning, growth and becoming
+view-if: player = "one"
+on-arrival: qol-purpose = "continuous learning, growth and becoming"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Continuous learning, growth and becoming
+
+@qolp_ind_health
+title: Holistic health, vitality and wellbeing
+view-if: player = "one"
+on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Holistic health, vitality and wellbeing
+
+@qolp_ind_creativity
+title: Creativity, innovation and meaningful expression
+view-if: player = "one"
+on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Creativity, innovation and meaningful expression
+
+# Purpose - Group
+
+@qolp_grp_community
+title: Service, connection and community support
+view-if: player = "group"
+on-arrival: qol-purpose = "service, connection and community support"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Service, connection and community support
+
+@qolp_grp_sustainability
+title: Stewardship of land and lasting sustainability
+view-if: player = "group"
+on-arrival: qol-purpose = "stewardship of land and lasting sustainability"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Stewardship of land and lasting sustainability
+
+@qolp_grp_support
+title: Mutual support, care and solidarity
+view-if: player = "group"
+on-arrival: qol-purpose = "mutual support, care and solidarity"
+go-to: 18_qol_contribution
+tags: qol_purpose
+
+Me: Mutual support, care and solidarity
+
+# Purpose - Organisation - Statement of Purpose
+
+@qolp_organisation
+title: Organisational statement of purpose
+on-arrival: qol-purpose = st-purpose
+go-to: 18_qol_contribution
+
+Facilyn: If you're working within an organisation, you already have an answer to this question in your Statement of Purpose: 
+
+Paper: [+ st-purpose +]
+
+Facilyn: The next two questions help you find personal meaning in that larger purpose. 

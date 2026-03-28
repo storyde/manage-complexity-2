@@ -1,0 +1,133 @@
+title: Alright
+on-arrival: progress = 15
+tags: qol_intro
+new-page: true
+
+Me: Alright
+
+Facilyn: Let’s start with essential human needs that are met by economic well-being.
+
+Facilyn: Which aspects matter most to you?
+
+- #economic_aspects
+
+@qolew_basic_needs_fulfilled
+title: Nourishing food, clean water, warm clothing, safe shelter, good health and security
+on-arrival: qol-economic = "nourishing food, clean water, warm clothing, safe shelter, good health and security"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: Nourishing food, clean water, warm clothing, safe shelter, good health and security
+
+@qolew_comfortable_surroundings
+title: A comfortable home, secure health care and steady access to food, water, clothing and safety
+on-arrival: qol-economic = "a comfortable home, secure health care and steady access to food, water, clothing and safety"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: A comfortable home, secure health care and steady access to food, water, clothing and safety
+
+@qolew_health_and_vitality
+title: Resources for good health and security, with reliable food, clean water, clothing and shelter
+on-arrival: qol-economic = "resources for good health and security, with reliable food, clean water, clothing and shelter"
+go-to: qolewb_balance
+tags: economic_aspects
+
+Me: Resources for good health and security, with reliable food, clean water, clothing and shelter
+
+# Balance
+
+@qolewb_balance
+title: Balance
+on-arrival: progress = 16
+
+Facilyn: Great.
+
+Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
+
+Facilyn: What do you want to make sure you don’t miss?
+
+- #balance_aspects
+
+@qolewb_explanation
+title: I am not sure...
+max-visits: 1
+order: 10
+tags: balance_aspects
+
+Me: I am not sure...
+
+Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
+
+Facilyn: Name what money makes possible. Freedom? Time? The ability to help someone else? That underlying benefit is what belongs in your Quality of Life Statement.
+
+- #balance_aspects
+
+# Balance - All
+
+@qolewb_education_community
+title: Good education and time for family, friends and community
+on-arrival: qol-balance = "good education and time for family, friends and community"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Good education and time for family, friends and community
+
+@qolewb_balance_leisure
+title: Room for rest, meaningful leisure and time for family and friends
+on-arrival: qol-balance = "room for rest, meaningful leisure and time for family and friends"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Room for rest, meaningful leisure and time for family and friends
+
+# Balance - Individual
+
+@qolewb_family_friends
+title: Quality time with family and friends, plus learning and space for culture and leisure
+view-if: player = "one"
+on-arrival: qol-balance = "quality time with family and friends, plus learning and space for culture and leisure"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Quality time with family and friends, plus learning and space for culture and leisure
+
+@qolew_travel_and_experience
+title: Resources to travel and see the world
+view-if: player = "one"
+on-arrival: qol-economic = "resources to travel and see the world"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Resources to travel and see the world
+
+@qolewb_cultural_pursuits
+title: Cultural and artistic pursuits, supported by learning and time for family and friends
+view-if: player = "one"
+on-arrival: qol-balance = "cultural and artistic pursuits, supported by learning and time for family and friends"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Cultural and artistic pursuits, supported by learning and time for family and friends
+
+# Balance - Group
+
+@qolewb_community_wellbeing
+title: Community wellbeing, with time for family and friends, learning and room for culture
+view-if: player = "group"
+on-arrival: qol-balance = "community wellbeing, with time for family and friends, learning and room for culture"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Community wellbeing, with time for family and friends, learning and room for culture
+
+# Balance - Organisation
+
+@qolewb_employee_wellbeing
+title: Member wellbeing, with learning, community connection and time for family and leisure
+view-if: player = "org"
+on-arrival: qol-balance = "member wellbeing, with learning, community connection and time for family and leisure"
+go-to: 15_qol_relationships
+tags: balance_aspects
+
+Me: Member wellbeing, with learning, community connection and time for family and leisure

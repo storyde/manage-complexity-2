@@ -1,0 +1,205 @@
+title: Challenge and Growth
+on-arrival: progress = 18
+
+Facilyn: Now — what calls for your creativity? 
+
+Facilyn: What kind of challenges help you become all you can be?
+
+- #challenge_aspects
+
+@qolc_explanation
+title: Please explain a bit further
+max-visits: 1
+order: 10
+tags: challenge_aspects
+
+Me: Please explain a bit further.
+
+Facilyn: Think about what energizes you and inspires you. Focus on what brings out your best.
+
+Facilyn: Challenge and growth aren’t about stress or difficulty for their own sake. They’re about using your capabilities fully, and stretching them.
+
+By the window, two friends argue gently about whether the rain is “starting” or “already here,” then settle for sharing the last dry bench.
+
+- #challenge_aspects
+
+# Challenge - All
+
+@qolc_future_generations
+title: Stewardship that offers hope to future generations
+on-arrival: qol-challenge = "stewardship that offers hope to future generations"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Stewardship that offers hope to future generations
+
+@qolc_curious_life
+title: Work that keeps curiosity alive and asks patience and craft
+on-arrival: qol-challenge = "work that keeps curiosity alive and asks patience and craft"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Work that keeps curiosity alive and asks patience and craft
+
+# Challenge - Individual
+
+@qolc_ind_growth
+title: Cultivating patience and growing into deeper capability
+view-if: player = "one"
+on-arrival: qol-challenge = "cultivating patience and growing into deeper capability"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Cultivating patience and growing into deeper capability
+
+# Challenge - Group
+
+@qolc_experimentation_space
+title: Fearless experimentation and learning from nature's wisdom
+view-if: player = "group"
+on-arrival: qol-challenge = "fearless experimentation and learning from nature's wisdom"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Fearless experimentation and learning from nature's wisdom
+
+# Challenge - Organisation
+
+@qolc_clarity_creation
+title: Bringing clarity and direction where none existed before
+view-if: player = "org"
+on-arrival: qol-challenge = "bringing clarity and direction where none existed before"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: Bringing clarity and direction where none existed before
+
+@qolc_freedom_flow
+title: The exhilaration of autonomy, where freedom and responsibility meet in creative flow
+view-if: player = "org"
+on-arrival: qol-challenge = "the exhilaration of autonomy, where freedom and responsibility meet in creative flow"
+go-to: qolg_growth
+tags: challenge_aspects
+
+Me: The exhilaration of autonomy, where freedom and responsibility meet in creative flow
+
+# Growth
+
+@qolg_growth
+title: Growth
+on-arrival: progress = 19
+
+Facilyn: Perfect. 
+
+She pours fresh tea into your cup before continuing.
+
+Facilyn: And what do you want to be free to do in terms of inner growth?
+
+- #growth_aspects
+
+@qolg_explanation
+title: Please explain a bit further
+max-visits: 1
+order: 10
+tags: growth_aspects
+
+Me: Please explain a bit further.
+
+Facilyn: Think about what helps you feel fulfilled. What lets you grow, as a person or a group? This is about freedom to pursue what gives life deeper meaning.
+
+- #growth_aspects
+
+# Growth - All
+
+@qolg_learning
+title: Expand horizons through learning and discovery
+on-arrival: qol-growth = "expand horizons through learning and discovery"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Expand horizons through learning and discovery
+
+@qolg_traditions
+title: Preserve and celebrate shared traditions
+on-arrival: qol-growth = "preserve and celebrate shared traditions"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Preserve and celebrate shared traditions
+
+@qolg_balance
+title: Find balance and harmony between work, life and nature
+on-arrival: qol-growth = "find balance and harmony between work, life and nature"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Find balance and harmony between work, life and nature
+
+# Growth - Individual
+
+@qolg_spiritual
+title: Practice spiritual or religious beliefs that offer guidance and meaning
+view-if: player = "one"
+on-arrival: qol-growth = "practice spiritual or religious beliefs that offer guidance and meaning"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Practice spiritual or religious beliefs that offer guidance and meaning
+
+@qolg_resilience
+title: Cultivate inner peace and emotional resilience
+view-if: player = "one"
+on-arrival: qol-growth = "cultivate inner peace and emotional resilience"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Cultivate inner peace and emotional resilience
+
+# Growth - Group
+
+@qolg_integrity
+title: Act with integrity and according to conviction
+view-if: player = "group"
+on-arrival: qol-growth = "act with integrity and according to conviction"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Act with integrity and according to conviction
+
+@qolg_connection
+title: Deepen connection and trust within community
+view-if: player = "group"
+on-arrival: qol-growth = "deepen connection and trust within community"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Deepen connection and trust within community
+
+@qolg_mentorship
+title: Share wisdom and mentor one another
+view-if: player = "group"
+on-arrival: qol-growth = "share wisdom and mentor one another"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Share wisdom and mentor one another
+
+# Growth - Organisation
+
+@qolg_evolution
+title: Evolve collective purpose in service of a greater good
+view-if: player = "org"
+on-arrival: qol-growth = "evolve collective purpose in service of a greater good"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Evolve collective purpose in service of a greater good
+
+@qolg_innovation
+title: Foster a culture of innovation and steady improvement
+view-if: player = "org"
+on-arrival: qol-growth = "foster a culture of innovation and steady improvement"
+go-to: 17_qol_purpose
+tags: growth_aspects
+
+Me: Foster a culture of innovation and steady improvement

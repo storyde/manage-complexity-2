@@ -1,0 +1,261 @@
+title: Define decision-makers
+on-arrival: progress = 9
+view-if: player = "org"
+
+Facilyn: Nice.
+
+Facilyn: So—let’s name the decision-makers. Who makes decisions in your organisation, or is expected to carry them out? And does anyone else have veto power?
+
+Facilyn: Try to be inclusive rather than exclusive. 
+
+- #decision_makers
+
+# Agriculture
+
+@dmkrs_agr_farm
+title: Farm owners, farm managers and staff.
+view-if: sector = "agriculture"
+on-arrival: decision-makers = "Farm owners, farm managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Farm owners, farm managers and staff.
+
+@dmkrs_agr_coop
+title: Cooperative members, staff and board of directors.
+view-if: sector = "agriculture"
+on-arrival: decision-makers = "Cooperative members, staff and board of directors."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Cooperative members, staff and board of directors.
+
+@dmkrs_agr_ranch
+title: Ranch owners, ranch managers and staff.
+view-if: sector = "agriculture"
+on-arrival: decision-makers = "Ranch owners, ranch managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Ranch owners, ranch managers and staff.
+
+# Business
+
+@dmkrs_bus_store
+title: Store owners, managers and staff.
+view-if: sector = "business"
+on-arrival: decision-makers = "Store owners, managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Store owners, managers and staff.
+
+@dmkrs_bus_insurance
+title: Insurance executives, underwriters and staff.
+view-if: sector = "business"
+on-arrival: decision-makers = "Insurance executives, underwriters and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Insurance executives, underwriters and staff.
+
+@dmkrs_bus_hospitality
+title: Hotel owners, managers and staff.
+view-if: sector = "business"
+on-arrival: decision-makers = "Hotel owners, managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Hotel owners, managers and staff.
+
+@dmkrs_bus_company
+title: Company owners, managers and staff.
+view-if: sector = "business"
+on-arrival: decision-makers = "Company owners, managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Company owners, managers and staff.
+
+# Culture
+
+@dmkrs_cul_arts
+title: Arts directors, curators and staff.
+view-if: sector = "culture"
+on-arrival: decision-makers = "Arts directors, curators and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Arts directors, curators and staff.
+
+@dmkrs_cul_heritage
+title: Heritage conservators, board members and staff.
+view-if: sector = "culture"
+on-arrival: decision-makers = "Heritage conservators, board members and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Heritage conservators, board members and staff.
+
+@dmkrs_cul_newsroom
+title: Media board members, editors and journalists.
+view-if: sector = "culture"
+on-arrival: decision-makers = "Media board members, editors and journalists."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Media board members, editors and journalists.
+
+# Education
+
+@dmkrs_edu_kindergarten
+title: Kindergarten teachers and administrators.
+view-if: sector = "education"
+on-arrival: decision-makers = "Kindergarten teachers and administrators."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Kindergarten teachers and administrators.
+
+@dmkrs_edu_school
+title: School administrators, teachers and the ministry of education.
+view-if: sector = "education"
+on-arrival: decision-makers = "School administrators, teachers and the ministry of education."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: School administrators, teachers and the ministry of education.
+
+@dmkrs_edu_university
+title: University faculty and administration.
+view-if: sector = "education"
+on-arrival: decision-makers = "University faculty and administration."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: University faculty and administration.
+
+# Industry
+
+@dmkrs_ind_factory
+title: Factory managers, production supervisors and staff.
+view-if: sector = "industry"
+on-arrival: decision-makers = "Factory managers, production supervisors and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Factory managers, production supervisors and staff.
+
+@dmkrs_ind_construction
+title: Construction managers, project supervisors and staff.
+view-if: sector = "industry"
+on-arrival: decision-makers = "Construction managers, project supervisors and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Construction managers, project supervisors and staff.
+
+@dmkrs_ind_logging
+title: Logging supervisors, forest managers and staff.
+view-if: sector = "industry"
+on-arrival: decision-makers = "Logging supervisors, forest managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Logging supervisors, forest managers and staff.
+
+# Nonprofit
+
+@dmkrs_nonprofit_service
+title: Service coordinators, board members and staff.
+view-if: sector = "nonprofit"
+on-arrival: decision-makers = "Service coordinators, board members and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Service coordinators, board members and staff.
+
+@dmkrs_nonprofit_advocacy
+title: Advocacy leaders, campaign managers and staff.
+view-if: sector = "nonprofit"
+on-arrival: decision-makers = "Advocacy leaders, campaign managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Advocacy leaders, campaign managers and staff.
+
+@dmkrs_nonprofit_climate
+title: Environmental scientists and activists.
+view-if: sector = "nonprofit"
+on-arrival: decision-makers = "Environmental scientists and activists."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Environmental scientists and activists.
+
+# Public service
+
+@dmkrs_pub_transport
+title: Public transport executives, operations managers and staff.
+view-if: sector = "publicservice"
+on-arrival: decision-makers = "Public transport executives, operations managers and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Public transport executives, operations managers and staff.
+
+@dmkrs_pub_health
+title: Hospital administrators and medical staff.
+view-if: sector = "publicservice"
+on-arrival: decision-makers = "Hospital administrators and medical staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Hospital administrators and medical staff.
+
+@dmkrs_pub_service
+title: Agency directors and department heads.
+view-if: sector = "publicservice"
+on-arrival: decision-makers = "Agency directors and department heads."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Agency directors and department heads.
+
+@dmkrs_pub_parks
+title: Parks managers, recreation coordinators and staff.
+view-if: sector = "publicservice"
+on-arrival: decision-makers = "Parks managers, recreation coordinators and staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Parks managers, recreation coordinators and staff.
+
+# Policymaking
+
+@dmkrs_pol_policy
+title: Government officials and policy advisors.
+view-if: sector = "policymaking"
+on-arrival: decision-makers = "Government officials and policy advisors."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Government officials and policy advisors.
+
+@dmkrs_pol_city
+title: City council members and mayor.
+view-if: sector = "policymaking"
+on-arrival: decision-makers = "City council members and mayor."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: City council members and mayor.
+
+@dmkrs_pol_intl
+title: Ambassadors and diplomatic staff.
+view-if: sector = "policymaking"
+on-arrival: decision-makers = "Ambassadors and diplomatic staff."
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Ambassadors and diplomatic staff.

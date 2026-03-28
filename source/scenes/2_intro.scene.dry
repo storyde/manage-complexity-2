@@ -1,0 +1,44 @@
+﻿title: Start 
+order: 1
+on-arrival: progress = 2
+tags: root
+
+= In the not-so-distant future, ...  
+
+... in a country that once called itself stable, the strain of the polycrisis takes its toll.
+
+And the robots?
+
+They’re still around. Just... doing their own thing now.
+
+You arrive in the middle of it all, following an invitation to grab some tea at the old harbour and have a chat about solving the polycrisis.
+
+You are here:  
+
+- #here_with
+
+@by_yourself
+title: On my own 
+subtitle: Currently without company
+on-arrival: player = "one"
+go-to: 3_harbour
+tags: here_with
+
+Me: On my own. 
+
+@with_group
+title: With family or friends
+on-arrival: player = "group"
+go-to: 3_harbour
+tags: here_with
+
+Me: As a group. 
+
+@for_organization
+title: On behalf of my organisation
+subtitle: Or with colleagues
+on-arrival: player = "org"
+go-to: 3_harbour
+tags: here_with
+
+Me: On behalf of my organisation. 

@@ -1,0 +1,30 @@
+title: Quality of Life
+subtitle: How You Want Your Life to Be
+on-arrival: progress = 14
+
+Facilyn takes a long sip of her tea.
+
+Facilyn: Now we come to the heart of it — your Quality of Life Statement.
+
+Facilyn: Think of it as a clear picture of what you value, and how you want your life to be.
+
+Facilyn: We’ll move through a few areas: economic well-being, relationships, challenge and growth, and purpose and contribution.
+
+- #qol_intro
+
+@qol_explanation
+title: Wait,
+subtitle: can you explain a little further?
+max-visits: 1
+order: 10
+tags: qol_intro
+
+Me: Wait, can you explain a little further?
+
+Facilyn: Of course. It’s the “why” underneath your choices: what you’re about, what you want to become, what makes this feel worth doing.
+
+Facilyn: These areas just help you get specific, without turning it into a checklist.
+
+Outside the window, two people share an umbrella for three steps, then laugh and split when the wind changes its mind.
+
+- #qol_intro

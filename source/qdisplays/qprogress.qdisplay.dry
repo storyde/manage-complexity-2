@@ -1,0 +1,46 @@
+
+# progress
+
+(0..0) **Intro:**<br><progress value="0" max="5">0</progress><br>Not started yet
+(1..1) **Intro:**<br><progress value="0" max="5">0</progress><br>Welcome
+(2..2) **Intro:**<br><progress value="1" max="5">1</progress><br>Arrival
+(3..3) **Intro:**<br><progress value="2" max="5">2</progress><br>You reached the harbour
+(4..4) **Intro:**<br><progress value="3" max="5">3</progress><br>You know the way to the teahouse
+(5..5) **Intro:**<br><progress value="4" max="5">4</progress><br>Inside the teahouse
+(6..6) **Intro:**<br><progress value="5" max="5">5</progress><br>Learning about complexity
+(7..7) **Creation Prozess:**<br><progress value="0" max="19">0</progress><br>Framework introduction
+(8..8) **Creation Prozess:**<br><progress value="1" max="19">1</progress><br>Choose sector
+(9..9) **Creation Prozess:**<br><progress value="2" max="19">2</progress><br>Define decision-makers
+(10..10) **Creation Prozess:**<br><progress value="3" max="19">3</progress><br>List physical resources
+(11..11) **Creation Prozess:**<br><progress value="4" max="19">4</progress><br>List human resources
+(12..12) **Creation Prozess:**<br><progress value="5" max="19">5</progress><br>List monetary resources
+(13..13) **Creation Prozess:**<br><progress value="6" max="19">6</progress><br>Write statement of purpose
+(14..14) **Creation Prozess:**<br><progress value="7" max="19">7</progress><br>Quality of life introduction
+(15..15) **Creation Prozess:**<br><progress value="8" max="19">8</progress><br>Quality of life: Economy
+(16..16) **Creation Prozess:**<br><progress value="9" max="19">9</progress><br>Have time for
+(17..17) **Creation Prozess:**<br><progress value="10" max="19">10</progress><br>Quality of life: Relationships
+(18..18) **Creation Prozess:**<br><progress value="11" max="19">11</progress><br>Quality of life: Challenge
+(19..19) **Creation Prozess:**<br><progress value="12" max="19">12</progress><br>Quality of life: Growth
+(20..20) **Creation Prozess:**<br><progress value="13" max="19">13</progress><br>Quality of life: Purpose
+(21..21) **Creation Prozess:**<br><progress value="14" max="19">14</progress><br>Quality of life: Contribution
+(22..22) **Creation Prozess:**<br><progress value="15" max="19">15</progress><br>Quality of life: Accomplishment
+(23..23) **Creation Prozess:**<br><progress value="16" max="19">16</progress><br>Quality of life Statement
+(24..24) **Creation Prozess:**<br><progress value="17" max="19">17</progress><br>Future resource base: People
+(25..25) **Creation Prozess:**<br><progress value="18" max="19">18</progress><br>Future resource base: Environment
+(26..26) **Creation Prozess:**<br><progress value="19" max="19">19</progress><br>Holistic context completed
+(27..27) **Filter Questions:**<br><progress value="0" max="13">0</progress><br>Choose your decision
+(28..28) **Filter Questions:**<br><progress value="1" max="13">1</progress><br>Filter for cause and effect
+(29..29) **Filter Questions:**<br><progress value="2" max="13">2</progress><br>Filter for weak links
+(30..30) **Filter Questions:**<br><progress value="3" max="13">3</progress><br>Weak link: Social
+(31..31) **Filter Questions:**<br><progress value="4" max="13">4</progress><br>Weak link: Biological
+(32..32) **Filter Questions:**<br><progress value="5" max="13">5</progress><br>Weak link: Financial
+(33..33) **Filter Questions:**<br><progress value="6" max="13">6</progress><br>Filter for marginal reaction
+(34..34) **Filter Questions:**<br><progress value="7" max="13">7</progress><br>Filter for gross profit
+(35..35) **Filter Questions:**<br><progress value="8" max="13">8</progress><br>Energy/money: Source check
+(36..36) **Filter Questions:**<br><progress value="9" max="13">9</progress><br>Energy/money: Use check
+(37..37) **Filter Questions:**<br><progress value="10" max="13">10</progress><br>Filter for sustainable behaviour
+(38..38) **Filter Questions:**<br><progress value="11" max="13">11</progress><br>Filter for sustainable environment
+(39..39) **Filter Questions:**<br><progress value="12" max="13">12</progress><br>Filter for gut feel
+(40..40) **Filter Questions:**<br><progress value="13" max="13">13</progress><br>Review results
+(41..41) **Finalize Filter Questions:**<br>Revisit skipped filters
+(42..42) **Outro:**<br>Framework notes

@@ -1,0 +1,45 @@
+title: Test
+subtitle: Just a test choice
+order: 5
+is-special: true
+new-page: true
+tags: root
+
+= Title
+
+<img src="assets/imgs/sailboat.jpg">
+
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('5_wum_intro');">5_wum_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('13_qol_intro');">13_qol_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('20_frb_people');">20_frb_people</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('22_holtext');">22_holtext</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('23_fq_intro');">23_fq_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('31_fq_results');">31_fq_results</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('33_framework_outro');">33_framework_outro</a>!}
+
+# TODO: hover-over
+
+{!<a href="#" onmouseover="this.innerHTML='Mouse is over';" onmouseout="this.innerHTML='Mouseover';">Mouseover</a>!}
+
+- @script_test
+
+@script_test
+title: I'd like to start the framework from the beginning
+game-over: false
+
+Me: I'd like to start the framework from the beginning.
+
+Page will reload in a few seconds.
+
+<meta http-equiv="refresh" content="2">
+
+- @backSpecialScene: Back

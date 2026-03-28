@@ -1,0 +1,104 @@
+title: Got it
+view-if: player = "one"
+on-arrival: progress = 9
+tags: whole_u_mgmt
+new-page: true
+
+Me: Got it.
+
+Facilyn: Let’s begin with the decision-makers.
+
+Facilyn: For now, do you want to focus on just yourself?
+
+Facilyn: Or should we expand the “whole” — include anyone you live with, decide with, or who can veto your choices?
+
+- #decision_makers
+
+@dmkrs_explanation
+title: Why involve everyone?
+max-visits: 1
+order: 10
+tags: decision_makers
+
+Me: Why involve everyone?
+
+Facilyn: If you leave out people who are affected, you invite conflict — and the context stops being real for everyone else.
+
+A faint whirring passes outside, then the wind rattles the teahouse sign again.
+
+Both of you glance toward the window.
+
+A postal robot is attempting to deliver mail to a fire hydrant. It adjusts its angle, retries, then waits politely — convinced the hydrant is simply a quiet resident.
+
+Facilyn watches it for a moment.
+
+Facilyn: See?
+
+Facilyn: The system thinks it has the right address. The hydrant disagrees.
+
+She looks back at you.
+
+Facilyn: Exclude a real stakeholder, and you end up negotiating with a fire hydrant.
+
+- #decision_makers
+
+@dmkrs_me
+title: Just me
+view-if: player = "one"
+on-arrival: decision-makers = "Me"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Just me. I am making the decisions in my life.
+
+Facilyn: Perfect. Then we treat you as the only decision-maker.
+
+@dmkrs_include_more
+title: Include more people
+view-if: player = "one"
+on-arrival: decision-makers = "Me and people I live or decide with"; player = "group"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Let's include the people I live or decide with, and anyone with veto power.
+
+Facilyn: Great. We’ll treat all of you together as the decision-makers in your whole under management.
+
+@wum_dmkrs_group
+title: Got it
+view-if: player = "group"
+on-arrival: progress = 9
+tags: whole_u_mgmt
+
+Me: Got it.
+
+Facilyn: Let’s start with the decision-makers. In your group, who makes decisions? Who carries them out? And does anyone else have veto power?
+
+Facilyn: Try to be inclusive rather than exclusive. 
+
+- #decision_makers
+
+# Group
+
+@dmkrs_group_and_veto
+title: Group members 
+subtitle: and the people with veto power
+view-if: player = "group"
+on-arrival: decision-makers = "Group members and others with veto power"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Group members and others with veto power.
+
+Facilyn: Good. That gives us the decision makers for your whole under management.
+
+@dmkrs_group_no_veto
+title: Just us
+view-if: player = "group"
+on-arrival: decision-makers = "Us"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Just us.
+
+Facilyn: Good. That gives us the decision makers for your whole under management.

@@ -1,0 +1,28 @@
+title: Completed holistic context
+on-arrival: progress = 26
+
+Facilyn: Excellent. You now have your holistic context: your quality of life and your future resource base — captured in simple phrases.
+
+Facilyn: If you stitch those phrases into full sentences, it might read like this:
+
+She fills in a few phrases, then hands you the Paper.
+
+[? if player = "one" : Paper: <h1>Holistic Context:</h1><br>I want [+ qol-economic +] in a balanced life with [+ qol-balance +]. My relationships will be grounded in [+ qol-relationships +]. I thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. I find purpose in [+ qol-purpose +]. I seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>I will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
+[? if player = "group" : Paper: <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
+[? if player = "org" : Paper: <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+
+Facilyn: Remember: this version is generic, built from the options you were given. To make it yours, write one [? if player != "one" : together ?] in your own words — and make sure every decision-maker shares the same understanding of what each line means.
+
+Facilyn: When everyone has ownership, they can commit to it.
+
+Facilyn: Then this becomes your North Star. Not a goal you “finish,” but a guide for daily decisions in a complex world — like the compass on the ships leaving this harbour.
+
+Facilyn: Let’s place it in the left sidebar, so you can keep it in view.
+
+She places a new sheet of paper on the table.
+
+Facilyn: To use this holistic context, we’ll run decisions through seven testing questions. They filter out actions that look good today, but take you off course tomorrow.
+
+- #holtext_complete

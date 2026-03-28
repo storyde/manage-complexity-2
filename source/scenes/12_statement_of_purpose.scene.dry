@@ -1,0 +1,281 @@
+title: Statement of Purpose
+subtitle: Defining what our organisation provides
+on-arrival: progress = 13
+
+Facilyn: Next, we need your organisation’s Statement of Purpose.
+
+Facilyn: In plain words—what is your organisation here to do?
+
+- #st_purpose
+
+@stmp_explanation
+title: I am not sure what a Statement of Purpose is.
+max-visits: 1
+order: 10
+tags: st_purpose
+
+Me: I am not sure what a Statement of Purpose is.
+
+Facilyn: A Statement of Purpose captures the positive change your organisation creates. It's the "why" behind everything you do.
+
+Facilyn: For example, a hospital’s purpose isn’t “to make money from sick people.” It’s closer to: “to heal and restore health.”
+
+Facilyn: A factory’s purpose isn’t just “to make things.” It might be: “to create tools that improve people’s lives,” or “to transform raw materials into useful products.”
+
+Facilyn: Which purpose fits your organisation best?
+
+Out in the harbour, a cargo drone hovers above the docks, job done, purpose pending.
+
+- #st_purpose
+
+# Statement of Purpose
+
+# Agriculture
+
+@stmp_agr_farm
+title: Growing food that nourishes communities
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "growing food that nourishes communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Growing food that nourishes communities
+
+@stmp_agr_coop
+title: Backing farmers and strengthening rural communities
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "backing farmers and strengthening rural communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Backing farmers and strengthening rural communities
+
+@stmp_agr_ranch
+title: Stewarding land for future generations
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "stewarding land for future generations"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Stewarding land for future generations
+
+# Business
+
+@stmp_bus_store
+title: Making daily life simpler and more reliable
+view-if: sector = "business"
+on-arrival: st-purpose = "making daily life simpler and more reliable"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Making daily life simpler and more reliable
+
+@stmp_bus_insurance
+title: Reducing financial risk for people and organisations
+view-if: sector = "business"
+on-arrival: st-purpose = "reducing financial risk for people and organisations"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Reducing financial risk for people and organisations
+
+@stmp_bus_hospitality
+title: Creating welcoming places and experiences for travellers
+view-if: sector = "business"
+on-arrival: st-purpose = "creating welcoming places and experiences for travellers"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Creating welcoming places and experiences for travellers
+
+@stmp_bus_company
+title: Crafting services and products that genuinely help
+view-if: sector = "business"
+on-arrival: st-purpose = "crafting services and products that genuinely help"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Crafting services and products that genuinely help
+
+# Culture
+
+@stmp_cul_arts
+title: Making space for culture, expression and creativity
+view-if: sector = "culture"
+on-arrival: st-purpose = "making space for culture, expression and creativity"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Making space for culture, expression and creativity
+
+@stmp_cul_heritage
+title: Preserving and sharing cultural heritage
+view-if: sector = "culture"
+on-arrival: st-purpose = "preserving and sharing cultural heritage"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Preserving and sharing cultural heritage
+
+@stmp_cul_newsroom
+title: Informing the public through accurate, independent reporting
+view-if: sector = "culture"
+on-arrival: st-purpose = "informing the public through accurate, independent reporting"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Informing the public through accurate, independent reporting
+
+# Education
+
+@stmp_edu_kindergarten
+title: Creating a safe, nurturing place where young children learn and grow
+view-if: sector = "education"
+on-arrival: st-purpose = "creating a safe, nurturing place where young children learn and grow"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Creating a safe, nurturing place where young children learn and grow
+
+@stmp_edu_school
+title: Preparing students for the future and helping them reach potential
+view-if: sector = "education"
+on-arrival: st-purpose = "preparing students for the future and helping them reach potential"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Preparing students for the future and helping them reach potential
+
+@stmp_edu_university
+title: Advancing knowledge through research and preparing leaders for tomorrow
+view-if: sector = "education"
+on-arrival: st-purpose = "advancing knowledge through research and preparing leaders for tomorrow"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Advancing knowledge through research and preparing leaders for tomorrow
+
+# Industry
+
+@stmp_ind_factory
+title: Making useful products that improve everyday life
+view-if: sector = "industry"
+on-arrival: st-purpose = "making useful products that improve everyday life"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Making useful products that improve everyday life
+
+@stmp_ind_construction
+title: Building safe, durable structures and infrastructure that serve communities
+view-if: sector = "industry"
+on-arrival: st-purpose = "building safe, durable structures and infrastructure that serve communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Building safe, durable structures and infrastructure that serve communities
+
+@stmp_ind_logging
+title: Providing timber responsibly to meet society's needs
+view-if: sector = "industry"
+on-arrival: st-purpose = "providing timber responsibly to meet society's needs"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Providing timber responsibly to meet society's needs
+
+# Nonprofit
+
+@stmp_nonprofit_service
+title: Meeting community needs and facing social challenges
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "meeting community needs and facing social challenges"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Meeting community needs and facing social challenges
+
+@stmp_nonprofit_advocacy
+title: Standing up for positive change and social justice
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "standing up for positive change and social justice"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Standing up for positive change and social justice
+
+@stmp_nonprofit_climate
+title: Protecting the living world and confronting climate change
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "protecting the living world and confronting climate change"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Protecting the living world and confronting climate change
+
+# Public service
+
+@stmp_pub_transport
+title: Connecting communities through safe, accessible transport
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "connecting communities through safe, accessible transport"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Connecting communities through safe, accessible transport
+
+@stmp_pub_health
+title: Healing, preventing illness and restoring health
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "healing, preventing illness and restoring health"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Healing, preventing illness and restoring health
+
+@stmp_pub_service
+title: Serving the public interest and common good
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "serving the public interest and common good"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Serving the public interest and common good
+
+@stmp_pub_parks
+title: Protecting and sharing natural heritage for current and future generations
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "protecting and sharing natural heritage for current and future generations"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Protecting and sharing natural heritage for current and future generations
+
+# Policymaking
+
+@stmp_pol_policy
+title: Representing citizens and shaping public policy for the common good
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "representing citizens and shaping public policy for the common good"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Representing citizens and shaping public policy for the common good
+
+@stmp_pol_city
+title: Governing local communities and providing municipal services
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "governing local communities and providing municipal services"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Governing local communities and providing municipal services
+
+@stmp_pol_intl
+title: Building international cooperation and diplomacy
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "building international cooperation and diplomacy"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: Building international cooperation and diplomacy
