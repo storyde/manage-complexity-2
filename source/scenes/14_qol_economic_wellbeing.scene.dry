@@ -12,28 +12,28 @@ Facilyn: Which aspects matter most to you?
 - #economic_aspects
 
 @qolew_basic_needs_fulfilled
-title: Nourishing food, clean water, warm clothing, safe shelter, good health and security
-on-arrival: qol-economic = "nourishing food, clean water, warm clothing, safe shelter, good health and security"
+title: Nourishing food, clean water, safe shelter, warm clothing, dependable care and a deep sense of safety
+on-arrival: qol-economic = "nourishing food, clean water, safe shelter, warm clothing, dependable care and a deep sense of safety"
 go-to: qolewb_balance
 tags: economic_aspects
 
-Me: Nourishing food, clean water, warm clothing, safe shelter, good health and security
+Me: Nourishing food, clean water, safe shelter, warm clothing, dependable care and a deep sense of safety
 
 @qolew_comfortable_surroundings
-title: A comfortable home, secure health care and steady access to food, water, clothing and safety
-on-arrival: qol-economic = "a comfortable home, secure health care and steady access to food, water, clothing and safety"
+title: A comfortable home, dependable health care and enough money for daily needs without constant strain
+on-arrival: qol-economic = "a comfortable home, dependable health care and enough money for daily needs without constant strain"
 go-to: qolewb_balance
 tags: economic_aspects
 
-Me: A comfortable home, secure health care and steady access to food, water, clothing and safety
+Me: A comfortable home, dependable health care and enough money for daily needs without constant strain
 
 @qolew_health_and_vitality
-title: Resources for good health and security, with reliable food, clean water, clothing and shelter
-on-arrival: qol-economic = "resources for good health and security, with reliable food, clean water, clothing and shelter"
+title: Robust health, personal safety and the means to meet essential needs without scraping by
+on-arrival: qol-economic = "robust health, personal safety and the means to meet essential needs without scraping by"
 go-to: qolewb_balance
 tags: economic_aspects
 
-Me: Resources for good health and security, with reliable food, clean water, clothing and shelter
+Me: Robust health, personal safety and the means to meet essential needs without scraping by
 
 # Balance
 
@@ -66,68 +66,66 @@ Facilyn: Name what money makes possible. Freedom? Time? The ability to help some
 # Balance - All
 
 @qolewb_education_community
-title: Good education and time for family, friends and community
-on-arrival: qol-balance = "good education and time for family, friends and community"
+title: Time for family, friends and community, with learning woven into everyday life
+on-arrival: qol-balance = "time for family, friends and community, with learning woven into everyday life"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Good education and time for family, friends and community
+Me: Time for family, friends and community, with learning woven into everyday life
 
 @qolewb_balance_leisure
-title: Room for rest, meaningful leisure and time for family and friends
-on-arrival: qol-balance = "room for rest, meaningful leisure and time for family and friends"
+title: Room for rest, leisure and time with family and friends
+on-arrival: qol-balance = "room for rest, leisure and time with family and friends"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Room for rest, meaningful leisure and time for family and friends
+Me: Room for rest, leisure and time with family and friends
 
 # Balance - Individual
 
 @qolewb_family_friends
-title: Quality time with family and friends, plus learning and space for culture and leisure
-view-if: player = "one"
-on-arrival: qol-balance = "quality time with family and friends, plus learning and space for culture and leisure"
+title: Time with family and friends, chances to keep learning and space for culture and play
+on-arrival: qol-balance = "time with family and friends, chances to keep learning and space for culture and play"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Quality time with family and friends, plus learning and space for culture and leisure
+Me: Time with family and friends, chances to keep learning and space for culture and play
 
 @qolew_travel_and_experience
-title: Resources to travel and see the world
+title: The means for travel and discovery, with food, shelter, health and security well covered
 view-if: player = "one"
-on-arrival: qol-economic = "resources to travel and see the world"
+on-arrival: qol-economic = "the means for travel and discovery, with food, shelter, health and security well covered"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Resources to travel and see the world
+Me: The means for travel and discovery, with food, shelter, health and security well covered
 
 @qolewb_cultural_pursuits
-title: Cultural and artistic pursuits, supported by learning and time for family and friends
-view-if: player = "one"
-on-arrival: qol-balance = "cultural and artistic pursuits, supported by learning and time for family and friends"
+title: Room for art, culture and creative life, held up by learning and time with loved ones
+on-arrival: qol-balance = "room for art, culture and creative life, held up by learning and time with loved ones"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Cultural and artistic pursuits, supported by learning and time for family and friends
+Me: Room for art, culture and creative life, held up by learning and time with loved ones
 
 # Balance - Group
 
 @qolewb_community_wellbeing
-title: Community wellbeing, with time for family and friends, learning and room for culture
+title: Community wellbeing, with time to show up for one another and room for culture
 view-if: player = "group"
-on-arrival: qol-balance = "community wellbeing, with time for family and friends, learning and room for culture"
+on-arrival: qol-balance = "community wellbeing, with time to show up for one another and room for culture"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Community wellbeing, with time for family and friends, learning and room for culture
+Me: Community wellbeing, with time to show up for one another and room for culture
 
 # Balance - Organisation
 
 @qolewb_employee_wellbeing
-title: Member wellbeing, with learning, community connection and time for family and leisure
+title: Member wellbeing, with time to learn, contribute, connect and have a life beyond work
 view-if: player = "org"
-on-arrival: qol-balance = "member wellbeing, with learning, community connection and time for family and leisure"
+on-arrival: qol-balance = "member wellbeing, with time to learn, contribute, connect and have a life beyond work"
 go-to: 15_qol_relationships
 tags: balance_aspects
 
-Me: Member wellbeing, with learning, community connection and time for family and leisure
+Me: Member wellbeing, with time to learn, contribute, connect and have a life beyond work

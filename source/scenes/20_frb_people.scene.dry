@@ -39,28 +39,28 @@ tags: behavior_aspects
 Me: Honest, attentive and respectful
 
 @frbp_collaborative_supportive
-title: Collaborative, fair and supportive
-on-arrival: frb-people = "collaborative, fair and supportive"
+title: Collaborative, fair and generous
+on-arrival: frb-people = "collaborative, fair and generous"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Collaborative, fair and supportive
+Me: Collaborative, fair and generous
 
 @frbp_professional_innovative
-title: Steady, skilful and committed
-on-arrival: frb-people = "steady, skilful and committed"
+title: Steady, skilful and dependable
+on-arrival: frb-people = "steady, skilful and dependable"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Steady, skilful and committed
+Me: Steady, skilful and dependable
 
 @frbp_ethical_responsible
-title: Ethical, responsible and dedicated
-on-arrival: frb-people = "ethical, responsible and dedicated"
+title: Principled, responsible and consistent
+on-arrival: frb-people = "principled, responsible and consistent"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Ethical, responsible and dedicated
+Me: Principled, responsible and consistent
 
 @frbp_empathetic_trustworthy
 title: Empathetic, prepared and transparent
@@ -71,9 +71,9 @@ tags: behavior_aspects
 Me: Empathetic, prepared and transparent
 
 @frbp_adaptive_proactive
-title: Adaptive, practical and open-minded
-on-arrival: frb-people = "adaptive, practical and open-minded"
+title: Adaptable, practical and open-minded
+on-arrival: frb-people = "adaptable, practical and open-minded"
 go-to: 21_frb_environment
 tags: behavior_aspects
 
-Me: Adaptive, practical and open-minded
+Me: Adaptable, practical and open-minded

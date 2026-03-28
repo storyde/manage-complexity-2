@@ -8,79 +8,79 @@ Facilyn: What do you want to be?
 # Aspiration - All
 
 @qolas_source_strength
-title: A grounded source of strength and stability
-on-arrival: qol-aspiration = "a grounded source of strength and stability"
+title: A steady source of strength and reassurance
+on-arrival: qol-aspiration = "a steady source of strength and reassurance"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A grounded source of strength and stability
+Me: A steady source of strength and reassurance
 
 @qolas_positive_force
-title: A positive and transformative force for change
-on-arrival: qol-aspiration = "a positive and transformative force for change"
+title: A brave and constructive force for change
+on-arrival: qol-aspiration = "a brave and constructive force for change"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A positive and transformative force for change
+Me: A brave and constructive force for change
 
 @qolas_collaborative_partner
-title: A collaborative, supportive and inspiring partner
-on-arrival: qol-aspiration = "a collaborative, supportive and inspiring partner"
+title: A partner people trust, enjoy and feel strengthened by
+on-arrival: qol-aspiration = "a partner people trust, enjoy and feel strengthened by"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A collaborative, supportive and inspiring partner
+Me: A partner people trust, enjoy and feel strengthened by
 
 # Aspiration - Individual
 
 @qolas_ind_balanced
-title: A balanced, joyful and fulfilled person
+title: A balanced, joyful and fully alive person
 view-if: player = "one"
-on-arrival: qol-aspiration = "a balanced, joyful and fulfilled person"
+on-arrival: qol-aspiration = "a balanced, joyful and fully alive person"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A balanced, joyful and fulfilled person
+Me: A balanced, joyful and fully alive person
 
 @qolas_ind_learner
-title: A curious, lifelong learner and explorer
+title: A curious, lifelong learner with room to keep exploring
 view-if: player = "one"
-on-arrival: qol-aspiration = "a curious, lifelong learner and explorer"
+on-arrival: qol-aspiration = "a curious, lifelong learner with room to keep exploring"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A curious, lifelong learner and explorer
+Me: A curious, lifelong learner with room to keep exploring
 
 # Aspiration - Group
 
 @qolas_loving_family
-title: A loving, caring and inclusive community
+title: A loving, dependable and inclusive community
 view-if: player = "group"
-on-arrival: qol-aspiration = "a loving, caring and inclusive community"
+on-arrival: qol-aspiration = "a loving, dependable and inclusive community"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A loving, caring and inclusive community
+Me: A loving, dependable and inclusive community
 
 # Aspiration - Organisation
 
 @qolas_resilient_adaptive
-title: A resilient, adaptive and thriving organisation
+title: A resilient organisation people can trust to endure and adapt
 view-if: player = "org"
-on-arrival: qol-aspiration = "a resilient, adaptive and thriving organisation"
+on-arrival: qol-aspiration = "a resilient organisation people can trust to endure and adapt"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A resilient, adaptive and thriving organisation
+Me: A resilient organisation people can trust to endure and adapt
 
 @qolas_innovative_pioneer
-title: An innovative pioneer exploring new frontiers
+title: A bold pioneer exploring new ground
 view-if: player = "org"
-on-arrival: qol-aspiration = "an innovative pioneer exploring new frontiers"
+on-arrival: qol-aspiration = "a bold pioneer exploring new ground"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: An innovative pioneer exploring new frontiers
+Me: A bold pioneer exploring new ground
 
 # Accomplishment - What do we ultimately want to accomplish?
 
@@ -97,48 +97,48 @@ Facilyn: And in terms of contribution, what do you ultimately want to accomplish
 # Accomplishment - All
 
 @qolac_lasting_impact
-title: Creating lasting positive impact for future generations
-on-arrival: qol-accomplish = "creating lasting positive impact for future generations"
+title: Building conditions that leave future generations better off
+on-arrival: qol-accomplish = "building conditions that leave future generations better off"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Creating lasting positive impact for future generations
+Me: Building conditions that leave future generations better off
 
 @qolac_regenerate_systems
-title: Regenerating damaged social and ecological systems
-on-arrival: qol-accomplish = "regenerating damaged social and ecological systems"
+title: Restoring damaged social and ecological systems
+on-arrival: qol-accomplish = "restoring damaged social and ecological systems"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Regenerating damaged social and ecological systems
+Me: Restoring damaged social and ecological systems
 
 @qolac_empower_others
-title: Empowering others to reach their full potential
-on-arrival: qol-accomplish = "empowering others to reach their full potential"
+title: Helping others grow into their own strength and potential
+on-arrival: qol-accomplish = "helping others grow into their own strength and potential"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Empowering others to reach their full potential
+Me: Helping others grow into their own strength and potential
 
 # Accomplishment - Individual
 
 @qolac_ind_meaning
-title: Living a life of deep meaning and quiet joy
+title: Building a life of deep meaning and quiet joy
 view-if: player = "one"
-on-arrival: qol-accomplish = "living a life of deep meaning and quiet joy"
+on-arrival: qol-accomplish = "building a life of deep meaning and quiet joy"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Living a life of deep meaning and quiet joy
+Me: Building a life of deep meaning and quiet joy
 
 @qolac_ind_potential
-title: Realising and expressing unique potential
+title: Bringing unique potential into the world
 view-if: player = "one"
-on-arrival: qol-accomplish = "realising and expressing unique potential"
+on-arrival: qol-accomplish = "bringing unique potential into the world"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Realising and expressing unique potential
+Me: Bringing unique potential into the world
 
 # Accomplishment - Group
 
@@ -152,30 +152,30 @@ tags: qol_accomplish
 Me: Building a resilient, supportive and vibrant community
 
 @qolac_bridge_divides
-title: Bridging divides and fostering deep understanding
+title: Healing divides and fostering deep understanding
 view-if: player = "group"
-on-arrival: qol-accomplish = "bridging divides and fostering deep understanding"
+on-arrival: qol-accomplish = "healing divides and fostering deep understanding"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Bridging divides and fostering deep understanding
+Me: Healing divides and fostering deep understanding
 
 # Accomplishment - Organisation
 
 @qolac_solve_problems
-title: Solving meaningful problems that truly matter
+title: Solving hard problems that truly matter
 view-if: player = "org"
-on-arrival: qol-accomplish = "solving meaningful problems that truly matter"
+on-arrival: qol-accomplish = "solving hard problems that truly matter"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Solving meaningful problems that truly matter
+Me: Solving hard problems that truly matter
 
 @qolac_org_ethical
-title: Leading the way in ethical and responsible innovation
+title: Innovation that is ethical, responsible and worthy of trust
 view-if: player = "org"
-on-arrival: qol-accomplish = "leading the way in ethical and responsible innovation"
+on-arrival: qol-accomplish = "innovation that is ethical, responsible and worthy of trust"
 go-to: 19_qol_textarea
 tags: qol_accomplish
 
-Me: Leading the way in ethical and responsible innovation
+Me: Innovation that is ethical, responsible and worthy of trust

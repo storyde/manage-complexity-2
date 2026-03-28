@@ -6,11 +6,11 @@ Important: do NOT rewrite the template structure or change the order of the vari
 
 Here is the fixed template:
 
-<h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +].
+<h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. 
 
 Your task:
-1. Rephrase the answer choices so they fit the fixed template naturally.
-2. Keep the meaning as close as possible, but improve grammar, tone, and flow.
+1. Rephrase the answer options so that they are suitable for a wider range of people and fit seamlessly into the provided template.
+2. Improve the meaning, grammar, tone, and flow.
 3. The text in the titles, after the Me: prefix, and in the variables should be the same. The only exception is that titles and the Me: prefix may start with capital letters, while variable values should start with lower-case letters unless they contain a true proper noun.
 4. Only the short variable values should start lower-case. Free text entered into [+ textarea +] may use normal sentence capitalization.
 5. Do not include pronouns. I use the same variables for the “We/our” version of the template as well as for the “I/My” version.
@@ -77,9 +77,9 @@ A. Improve answers that sound too flat or generic.
 B. Make sure, the answers match the overall tone 
 
 Focus especially on fixing these problems:
-- Capital letter where lower-case is needed
-- phrases being placed in the wrong variable
-- grammatical improvement
+- make the answers more distinguishable from one another
+- the answers should sound like real world answers, not like textbook answers
+- the answers should cover, what is really important. That could be more in some answers or less in others
 
 Aim for wording that sounds natural, warm, and human rather than stiff or corporate.
 

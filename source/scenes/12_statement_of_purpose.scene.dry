@@ -33,13 +33,13 @@ Out in the harbour, a cargo drone hovers above the docks, job done, purpose pend
 # Agriculture
 
 @stmp_agr_farm
-title: Growing food that nourishes communities
+title: Growing food that keeps communities fed and well
 view-if: sector = "agriculture"
-on-arrival: st-purpose = "growing food that nourishes communities"
+on-arrival: st-purpose = "growing food that keeps communities fed and well"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Growing food that nourishes communities
+Me: Growing food that keeps communities fed and well
 
 @stmp_agr_coop
 title: Backing farmers and strengthening rural communities
@@ -51,33 +51,33 @@ tags: st_purpose
 Me: Backing farmers and strengthening rural communities
 
 @stmp_agr_ranch
-title: Stewarding land for future generations
+title: Tending land so future generations can thrive
 view-if: sector = "agriculture"
-on-arrival: st-purpose = "stewarding land for future generations"
+on-arrival: st-purpose = "tending land so future generations can thrive"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Stewarding land for future generations
+Me: Tending land so future generations can thrive
 
 # Business
 
 @stmp_bus_store
-title: Making daily life simpler and more reliable
+title: Making daily life easier, steadier and more dependable
 view-if: sector = "business"
-on-arrival: st-purpose = "making daily life simpler and more reliable"
+on-arrival: st-purpose = "making daily life easier, steadier and more dependable"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Making daily life simpler and more reliable
+Me: Making daily life easier, steadier and more dependable
 
 @stmp_bus_insurance
-title: Reducing financial risk for people and organisations
+title: Helping people and organisations weather financial risk with confidence
 view-if: sector = "business"
-on-arrival: st-purpose = "reducing financial risk for people and organisations"
+on-arrival: st-purpose = "helping people and organisations weather financial risk with confidence"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Reducing financial risk for people and organisations
+Me: Helping people and organisations weather financial risk with confidence
 
 @stmp_bus_hospitality
 title: Creating welcoming places and experiences for travellers
@@ -89,42 +89,42 @@ tags: st_purpose
 Me: Creating welcoming places and experiences for travellers
 
 @stmp_bus_company
-title: Crafting services and products that genuinely help
+title: Crafting useful services and products people can truly rely on
 view-if: sector = "business"
-on-arrival: st-purpose = "crafting services and products that genuinely help"
+on-arrival: st-purpose = "crafting useful services and products people can truly rely on"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Crafting services and products that genuinely help
+Me: Crafting useful services and products people can truly rely on
 
 # Culture
 
 @stmp_cul_arts
-title: Making space for culture, expression and creativity
+title: Keeping culture, expression and creativity alive
 view-if: sector = "culture"
-on-arrival: st-purpose = "making space for culture, expression and creativity"
+on-arrival: st-purpose = "keeping culture, expression and creativity alive"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Making space for culture, expression and creativity
+Me: Keeping culture, expression and creativity alive
 
 @stmp_cul_heritage
-title: Preserving and sharing cultural heritage
+title: Preserving and sharing cultural heritage with care
 view-if: sector = "culture"
-on-arrival: st-purpose = "preserving and sharing cultural heritage"
+on-arrival: st-purpose = "preserving and sharing cultural heritage with care"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Preserving and sharing cultural heritage
+Me: Preserving and sharing cultural heritage with care
 
 @stmp_cul_newsroom
-title: Informing the public through accurate, independent reporting
+title: Keeping the public informed through accurate, independent reporting
 view-if: sector = "culture"
-on-arrival: st-purpose = "informing the public through accurate, independent reporting"
+on-arrival: st-purpose = "keeping the public informed through accurate, independent reporting"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Informing the public through accurate, independent reporting
+Me: Keeping the public informed through accurate, independent reporting
 
 # Education
 
@@ -138,144 +138,144 @@ tags: st_purpose
 Me: Creating a safe, nurturing place where young children learn and grow
 
 @stmp_edu_school
-title: Preparing students for the future and helping them reach potential
+title: Helping students grow, learn and step into their future with confidence
 view-if: sector = "education"
-on-arrival: st-purpose = "preparing students for the future and helping them reach potential"
+on-arrival: st-purpose = "helping students grow, learn and step into their future with confidence"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Preparing students for the future and helping them reach potential
+Me: Helping students grow, learn and step into their future with confidence
 
 @stmp_edu_university
-title: Advancing knowledge through research and preparing leaders for tomorrow
+title: Advancing knowledge through research and preparing thoughtful leaders
 view-if: sector = "education"
-on-arrival: st-purpose = "advancing knowledge through research and preparing leaders for tomorrow"
+on-arrival: st-purpose = "advancing knowledge through research and preparing thoughtful leaders"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Advancing knowledge through research and preparing leaders for tomorrow
+Me: Advancing knowledge through research and preparing thoughtful leaders
 
 # Industry
 
 @stmp_ind_factory
-title: Making useful products that improve everyday life
+title: Making useful products that earn a place in everyday life
 view-if: sector = "industry"
-on-arrival: st-purpose = "making useful products that improve everyday life"
+on-arrival: st-purpose = "making useful products that earn a place in everyday life"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Making useful products that improve everyday life
+Me: Making useful products that earn a place in everyday life
 
 @stmp_ind_construction
-title: Building safe, durable structures and infrastructure that serve communities
+title: Building safe, lasting structures and infrastructure communities can depend on
 view-if: sector = "industry"
-on-arrival: st-purpose = "building safe, durable structures and infrastructure that serve communities"
+on-arrival: st-purpose = "building safe, lasting structures and infrastructure communities can depend on"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Building safe, durable structures and infrastructure that serve communities
+Me: Building safe, lasting structures and infrastructure communities can depend on
 
 @stmp_ind_logging
-title: Providing timber responsibly to meet society's needs
+title: Providing timber in ways that care for land and long-term need
 view-if: sector = "industry"
-on-arrival: st-purpose = "providing timber responsibly to meet society's needs"
+on-arrival: st-purpose = "providing timber in ways that care for land and long-term need"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Providing timber responsibly to meet society's needs
+Me: Providing timber in ways that care for land and long-term need
 
 # Nonprofit
 
 @stmp_nonprofit_service
-title: Meeting community needs and facing social challenges
+title: Meeting community needs and standing with people through hardship
 view-if: sector = "nonprofit"
-on-arrival: st-purpose = "meeting community needs and facing social challenges"
+on-arrival: st-purpose = "meeting community needs and standing with people through hardship"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Meeting community needs and facing social challenges
+Me: Meeting community needs and standing with people through hardship
 
 @stmp_nonprofit_advocacy
-title: Standing up for positive change and social justice
+title: Standing up for dignity, fairness and social justice
 view-if: sector = "nonprofit"
-on-arrival: st-purpose = "standing up for positive change and social justice"
+on-arrival: st-purpose = "standing up for dignity, fairness and social justice"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Standing up for positive change and social justice
+Me: Standing up for dignity, fairness and social justice
 
 @stmp_nonprofit_climate
-title: Protecting the living world and confronting climate change
+title: Protecting the living world and responding to climate change
 view-if: sector = "nonprofit"
-on-arrival: st-purpose = "protecting the living world and confronting climate change"
+on-arrival: st-purpose = "protecting the living world and responding to climate change"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Protecting the living world and confronting climate change
+Me: Protecting the living world and responding to climate change
 
 # Public service
 
 @stmp_pub_transport
-title: Connecting communities through safe, accessible transport
+title: Keeping communities connected through safe, accessible transport
 view-if: sector = "publicservice"
-on-arrival: st-purpose = "connecting communities through safe, accessible transport"
+on-arrival: st-purpose = "keeping communities connected through safe, accessible transport"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Connecting communities through safe, accessible transport
+Me: Keeping communities connected through safe, accessible transport
 
 @stmp_pub_health
-title: Healing, preventing illness and restoring health
+title: Healing, preventing illness and helping people recover well
 view-if: sector = "publicservice"
-on-arrival: st-purpose = "healing, preventing illness and restoring health"
+on-arrival: st-purpose = "healing, preventing illness and helping people recover well"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Healing, preventing illness and restoring health
+Me: Healing, preventing illness and helping people recover well
 
 @stmp_pub_service
-title: Serving the public interest and common good
+title: Serving the public interest with care for the common good
 view-if: sector = "publicservice"
-on-arrival: st-purpose = "serving the public interest and common good"
+on-arrival: st-purpose = "serving the public interest with care for the common good"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Serving the public interest and common good
+Me: Serving the public interest with care for the common good
 
 @stmp_pub_parks
-title: Protecting and sharing natural heritage for current and future generations
+title: Protecting and sharing natural heritage for generations to come
 view-if: sector = "publicservice"
-on-arrival: st-purpose = "protecting and sharing natural heritage for current and future generations"
+on-arrival: st-purpose = "protecting and sharing natural heritage for generations to come"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Protecting and sharing natural heritage for current and future generations
+Me: Protecting and sharing natural heritage for generations to come
 
 # Policymaking
 
 @stmp_pol_policy
-title: Representing citizens and shaping public policy for the common good
+title: Representing citizens and shaping policy that serves the common good
 view-if: sector = "policymaking"
-on-arrival: st-purpose = "representing citizens and shaping public policy for the common good"
+on-arrival: st-purpose = "representing citizens and shaping policy that serves the common good"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Representing citizens and shaping public policy for the common good
+Me: Representing citizens and shaping policy that serves the common good
 
 @stmp_pol_city
-title: Governing local communities and providing municipal services
+title: Caring for local communities through good governance and dependable municipal services
 view-if: sector = "policymaking"
-on-arrival: st-purpose = "governing local communities and providing municipal services"
+on-arrival: st-purpose = "caring for local communities through good governance and dependable municipal services"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Governing local communities and providing municipal services
+Me: Caring for local communities through good governance and dependable municipal services
 
 @stmp_pol_intl
-title: Building international cooperation and diplomacy
+title: Building cooperation across borders through diplomacy
 view-if: sector = "policymaking"
-on-arrival: st-purpose = "building international cooperation and diplomacy"
+on-arrival: st-purpose = "building cooperation across borders through diplomacy"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: Building international cooperation and diplomacy
+Me: Building cooperation across borders through diplomacy

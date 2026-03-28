@@ -25,60 +25,60 @@ She turns the cup in her hands, watching the last swirl of steam fade.
 # Purpose - Individual
 
 @qolp_ind_learning
-title: Continuous learning, growth and becoming
+title: Learning, growing and staying open to what life can teach
 view-if: player = "one"
-on-arrival: qol-purpose = "continuous learning, growth and becoming"
+on-arrival: qol-purpose = "learning, growing and staying open to what life can teach"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Continuous learning, growth and becoming
+Me: Learning, growing and staying open to what life can teach
 
 @qolp_ind_health
-title: Holistic health, vitality and wellbeing
+title: Caring for health, vitality and participation
 view-if: player = "one"
-on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
+on-arrival: qol-purpose = "caring for health, vitality and participation"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Holistic health, vitality and wellbeing
+Me: Caring for health, vitality and participation
 
 @qolp_ind_creativity
-title: Creativity, innovation and meaningful expression
+title: Creativity, invention and meaningful expression
 view-if: player = "one"
-on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
+on-arrival: qol-purpose = "creativity, invention and meaningful expression"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Creativity, innovation and meaningful expression
+Me: Creativity, invention and meaningful expression
 
 # Purpose - Group
 
 @qolp_grp_community
-title: Service, connection and community support
+title: Service, connection and showing up for community
 view-if: player = "group"
-on-arrival: qol-purpose = "service, connection and community support"
+on-arrival: qol-purpose = "service, connection and showing up for community"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Service, connection and community support
+Me: Service, connection and showing up for community
 
 @qolp_grp_sustainability
-title: Stewardship of land and lasting sustainability
+title: Caring for land and building something that lasts
 view-if: player = "group"
-on-arrival: qol-purpose = "stewardship of land and lasting sustainability"
+on-arrival: qol-purpose = "caring for land and building something that lasts"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Stewardship of land and lasting sustainability
+Me: Caring for land and building something that lasts
 
 @qolp_grp_support
-title: Mutual support, care and solidarity
+title: Mutual care, solidarity and standing by one another
 view-if: player = "group"
-on-arrival: qol-purpose = "mutual support, care and solidarity"
+on-arrival: qol-purpose = "mutual care, solidarity and standing by one another"
 go-to: 18_qol_contribution
 tags: qol_purpose
 
-Me: Mutual support, care and solidarity
+Me: Mutual care, solidarity and standing by one another
 
 # Purpose - Organisation - Statement of Purpose
 

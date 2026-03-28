@@ -27,33 +27,33 @@ A harbour-bot and a lighthouse-bot linger at a lonely buoy, trading sea-glass an
 - #relationship_aspects
 
 @qolr_harmony_care
-title: Harmony, care and ease in one another's presence
-on-arrival: qol-relationships = "harmony, care and ease in one another's presence"
+title: Warmth, care and ease in one another's presence
+on-arrival: qol-relationships = "warmth, care and ease in one another's presence"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Harmony, care and ease in one another's presence
+Me: Warmth, care and ease in one another's presence
 
 @qolr_open_communication
-title: Open communication, mutual trust and enjoying each other's company
-on-arrival: qol-relationships = "open communication, mutual trust and enjoying each other's company"
+title: Open communication, mutual trust and real enjoyment of each other's company
+on-arrival: qol-relationships = "open communication, mutual trust and real enjoyment of each other's company"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Open communication, mutual trust and enjoying each other's company
+Me: Open communication, mutual trust and real enjoyment of each other's company
 
 @qolr_effective_teamwork
-title: Good collaboration, mutual understanding and shared laughter
-on-arrival: qol-relationships = "good collaboration, mutual understanding and shared laughter"
+title: Good teamwork, shared understanding and laughter that makes hard things lighter
+on-arrival: qol-relationships = "good teamwork, shared understanding and laughter that makes hard things lighter"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Good collaboration, mutual understanding and shared laughter
+Me: Good teamwork, shared understanding and laughter that makes hard things lighter
 
 @qolr_remaining_calm
-title: Calm support, mutual respect and repair after conflict
-on-arrival: qol-relationships = "calm support, mutual respect and repair after conflict"
+title: Mutual respect, steady support and honest communication
+on-arrival: qol-relationships = "mutual respect, steady support and honest communication"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Calm support, mutual respect and repair after conflict
+Me: Mutual respect, steady support and honest communication
