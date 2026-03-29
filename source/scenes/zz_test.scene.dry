@@ -7,8 +7,11 @@ tags: root
 
 = Title
 
-<img src="assets/imgs/sailboat.jpg">
+<img src="assets/imgs/sailboat.jpg" srcset="assets/imgs/sailboat.jpg 600w, assets/imgs/sailboat.jpg 1200w" sizes="(max-width: 1080px) 90vw, 700px" alt="Sailboat" loading="lazy" style="max-width: 100%; height: auto;">
 
+Image: sailboat.jpg
+
+<h2>Test heading</h2>
 
 In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
 
