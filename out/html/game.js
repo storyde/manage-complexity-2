@@ -507,21 +507,6 @@
       .join('/');
   }
 
-  function formatChatImageAlt(path) {
-    const fileName = path.split('/').pop() || '';
-    const baseName = fileName.replace(/\.[^.]+$/, '');
-    const label = baseName
-      .replace(/[-_]+/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    if (!label) {
-      return 'Scene image';
-    }
-
-    return label.replace(/\b\w/g, character => character.toUpperCase());
-  }
-
   window.displayParagraphHTML = function(html) {
     const mapping = {
       'Me: ':          'me',
@@ -587,14 +572,12 @@
           }
 
           const imageSrc = encodeURI(`assets/imgs/${imagePath}`);
-          const imageAlt = escapeHTMLAttribute(formatChatImageAlt(imagePath));
           const imageSrcAttribute = escapeHTMLAttribute(imageSrc);
-          const imageSrcSet = `${imageSrcAttribute} 600w, ${imageSrcAttribute} 1200w`;
 
           return `
             <div class="chat-line image">
               <div class="chat-image">
-                <img src="${imageSrcAttribute}" srcset="${imageSrcSet}" sizes="(max-width: 768px) calc(100vw - 24px), 680px" alt="${imageAlt}" loading="lazy" decoding="async" />
+                <img src="${imageSrcAttribute}" alt="" loading="lazy" decoding="async" />
               </div>
             </div>
           `;
