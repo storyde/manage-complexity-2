@@ -1,15 +1,9 @@
 title: Info
-new-page: true
 
-# This scene contains information for the right sidebar.
+# This scene contains information for the right sidebar. 
 
-<div class="sidebar-btn-row"><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('tutorial');" aria-label="Tutorial" tabindex="0">Tutorial</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('progress');" aria-label="Progress" tabindex="0">Progress</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('faq');" aria-label="FAQ" tabindex="0">FAQ</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('credits');" aria-label="Credits" tabindex="0">Credits</button></div>
-
-= 🚧 Under development. 🛠️ 
-
-**Expect bugs** 🐞 
-
-🍀 Tell us where to find them. 
+**🚧 This story is still under development. 🛠️ **
+Please report bugs 🐞 or issues here: <a href="https://github.com/manage-complexity/en/issues">Issues</a>
 
 [? if progress > 6 : <h1>Knowledge: </h1> ?]
 
@@ -46,3 +40,4 @@ new-page: true
 [? if progress > 38 : <details><summary>Gut feel</summary><p>How do we feel about this action now?</p><p>Will it lead to the quality of life we desire?</p><p>Will it adversely affect the lives of others?</p></details> ?]
 
 [? if progress > 39 : <details><summary>Why gut feel is last</summary><p>Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.</p></details> ?]
+

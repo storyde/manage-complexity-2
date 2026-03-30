@@ -53,7 +53,7 @@
             </h3>
           </div>
           <div class="sidebar-content">
-            <div id="progress" role="region" aria-label="Game Progress Information">
+            <div id="progress" role="region" aria-label="Progress">
               <!-- Dendry progress content will be populated here -->
             </div>
           </div>
@@ -83,20 +83,34 @@
               <i data-lucide="info"></i>
               Info
             </h3>
-            <div class="sidebar-header-actions">
-              <button id="theme-toggle" class="sidebar-header-btn" aria-label="Toggle Theme" tabindex="0">
+            <menu class="sidebar-header-actions">
+              <button id="theme-toggle" class="sidebar-btn" aria-label="Toggle Theme" tabindex="0">
                 <i data-lucide="moon"></i>
               </button>
-              <button class="sidebar-header-btn" onclick="window.showSaveSlots();" aria-label="Save/Load Game" tabindex="0">
+              <button class="sidebar-btn" onclick="window.showSaveSlots();" aria-label="Save/Load Game" tabindex="0">
                 <i data-lucide="save"></i>
               </button>
-            </div>
+            </menu>
           </div>
           <div class="sidebar-content">
-            <div id="info" role="region" aria-label="Game Info Information">
+            <div id="info" role="region" aria-label="Information">
               <!-- Dendry info content will be populated here -->
             </div>
           </div>
+          <div class="sidebar-footer"> 
+            <div class="sidebar-btn-row">
+              <button class="sidebar-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('tutorial');" aria-label="Tutorial" tabindex="0">
+                Tutorial
+              </button>
+              <button class="sidebar-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('faq');" aria-label="FAQ" tabindex="0">
+                FAQ
+              </button>
+              <button class="sidebar-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('credits');" aria-label="Credits" tabindex="0">
+                Credits
+              </button>
+            </div>
+          </div>
+
         </aside>
 
       </div>

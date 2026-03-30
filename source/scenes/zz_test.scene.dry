@@ -7,8 +7,6 @@ tags: root
 
 = Title
 
-<div class="sidebar-btn-row"><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('tutorial');" aria-label="Tutorial" tabindex="0">Tutorial</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('progress');" aria-label="Progress" tabindex="0">Progress</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('faq');" aria-label="FAQ" tabindex="0">FAQ</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('credits');" aria-label="Credits" tabindex="0">Credits</button></div>
-
 Image: sailboat.jpg
 
 <h2>Test heading</h2>
