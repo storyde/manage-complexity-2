@@ -506,6 +506,13 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(0.95);
 }
 
+.sidebar-btn-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
 .sidebar-content {
   flex: 1;
   padding: var(--space-lg);

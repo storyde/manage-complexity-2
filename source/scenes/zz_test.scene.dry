@@ -7,13 +7,13 @@ tags: root
 
 = Title
 
-<img src="assets/imgs/sailboat.jpg" srcset="assets/imgs/sailboat.jpg 600w, assets/imgs/sailboat.jpg 1200w" sizes="(max-width: 1080px) 90vw, 700px" alt="Sailboat" loading="lazy" style="max-width: 100%; height: auto;">
+<div class="sidebar-btn-row"><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('tutorial');" aria-label="Tutorial" tabindex="0">Tutorial</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('progress');" aria-label="Progress" tabindex="0">Progress</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('faq');" aria-label="FAQ" tabindex="0">FAQ</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('credits');" aria-label="Credits" tabindex="0">Credits</button></div>
 
 Image: sailboat.jpg
 
 <h2>Test heading</h2>
 
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('33_framework_outro'); return false;">Scene Outro</a>!}
 
 In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('5_wum_intro');">5_wum_intro</a>!}
 

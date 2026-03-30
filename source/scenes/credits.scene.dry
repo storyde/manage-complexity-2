@@ -1,6 +1,7 @@
 title: Credits
 order: 4
 is-special: true
+new-page: true  
 tags: root
 
 = A framework for Managing Complexity
@@ -8,3 +9,5 @@ tags: root
 Developed using Dendry by Ian D. Millington, with modifications by Autumn Chen, Julien Zamor and others.
 
 Inspired by the Savory Institutes framework Holistic Management. 
+
+- @backSpecialScene: Back

@@ -3,6 +3,8 @@ new-page: true
 
 # This scene contains information for the right sidebar.
 
+<div class="sidebar-btn-row"><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('tutorial');" aria-label="Tutorial" tabindex="0">Tutorial</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('progress');" aria-label="Progress" tabindex="0">Progress</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('faq');" aria-label="FAQ" tabindex="0">FAQ</button><button class="sidebar-header-btn" type="button" onclick="dendryUI.dendryEngine.goToScene('credits');" aria-label="Credits" tabindex="0">Credits</button></div>
+
 = 🚧 Under development. 🛠️ 
 
 **Expect bugs** 🐞 
