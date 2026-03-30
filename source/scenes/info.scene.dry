@@ -3,7 +3,7 @@ title: Info
 # This scene contains information for the right sidebar. 
 
 **🚧 This story is still under development. 🛠️ **
-Please report bugs 🐞 or issues here: <a href="https://github.com/manage-complexity/en/issues">Issues</a>
+Please report bugs 🐞 or issues here: <a href="https://github.com/manage-complexity/en/issues" target="_blank">Issues</a>
 
 [? if progress > 6 : <h1>Knowledge: </h1> ?]
 
