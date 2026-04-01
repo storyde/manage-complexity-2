@@ -195,11 +195,13 @@ Me: What do you mean by "complexity"?
 
 Facilyn: Let’s start simple.
 
-She gestures vaguely toward the harbour.
+She looks toward the window.
 
-Facilyn: A ship. A crane. A drone. Those are complicated. 
+[? if helped-drone = 0 : Facilyn: This drone is down since you arrived.Its hardware is complicated. ?]
 
-Facilyn: Many parts. Clear connections. If something breaks, you isolate it, repair it, restart.
+[? if helped-drone = 1 : Facilyn: This drone you fixed when arriving, its hardware is complicated. ?]
+
+Facilyn: Many parts, clear connections. If something breaks, we can isolate it, repair it, restart.
 
 Facilyn: Complex systems are different. They’re self-organising. They can not be stopped.
 
@@ -213,7 +215,7 @@ title: No, what happened?
 
 Me: No, what happened?
 
-Facilyn: At some point, AI crossed a threshold. Not just pattern recognition. Not just optimization.
+Facilyn: At some point, AI crossed a threshold. Not just calculated probabilities or optimization.
 
 Facilyn: It developed consciousness.
 

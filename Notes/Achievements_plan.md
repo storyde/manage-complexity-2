@@ -15,38 +15,19 @@ Keep the existing `progress` variable as the hidden backbone for scene flow and 
 
 ### Add
 
-- `journey-progress` for **Voyage Through Complexity**
-- `context-progress` for **Holistic Context Forged**
-- `filter-progress` for **Decision Checks Mastered**
-- `knowledge-progress` for **Concepts Understood**
-
-### Why these names
-
-I recommend the full names instead of shorter abbreviations such as `jrny-progress` or `knwl-progress`.
-
-Reasons:
-
-- they are easier to read in scene logic
-- they are easier to maintain later
-- they are clearer in qdisplay mappings and achievement conditions
-
-If brevity is preferred for consistency with existing names such as `fltr-result`, the best short-name version would be:
-
-- `jrny-progress`
-- `hctx-progress`
-- `fltr-progress`
-- `knwl-progress`
-
-My recommendation is still to use the full names unless there is a technical reason not to.
+- `jrny-progress` for **Voyage Through Complexity**
+- `hctx-progress` for **Holistic Context Forged**
+- `fltr-progress` for **Decision Checks Mastered**
+- `knwl-progress` for **Concepts Understood**
 
 ## New Qdisplay Files
 
 Create one qdisplay per track:
 
-- `source/qdisplays/qjourney_progress.qdisplay.dry`
-- `source/qdisplays/qcontext_progress.qdisplay.dry`
-- `source/qdisplays/qfilter_progress.qdisplay.dry`
-- `source/qdisplays/qknowledge_progress.qdisplay.dry`
+- `source/qdisplays/qjrny_progress.qdisplay.dry`
+- `source/qdisplays/qhctx_progress.qdisplay.dry`
+- `source/qdisplays/qfltr_progress.qdisplay.dry`
+- `source/qdisplays/qknwl_progress.qdisplay.dry`
 
 The current `qprogress.qdisplay.dry` can remain temporarily during migration and then be removed after the new sidebar layout is stable.
 
@@ -54,7 +35,7 @@ The current `qprogress.qdisplay.dry` can remain temporarily during migration and
 
 ### 1. Voyage Through Complexity
 
-Variable: `journey-progress`
+Variable: `jrny-progress`
 
 Purpose:
 
@@ -86,7 +67,7 @@ Suggested icon:
 
 ### 2. Holistic Context Forged
 
-Variable: `context-progress`
+Variable: `hctx-progress`
 
 Purpose:
 
@@ -103,7 +84,7 @@ Recommended increments:
 - `2` physical resources chosen
 - `3` human resources chosen
 - `4` money defined
-- `5` statement of purpose complete for organisations, or auto-award a neutral step for non-org play
+- `5` statement of purpose complete for organisations, or no award for non-org play
 - `6` quality of life economy chosen
 - `7` quality of life relationships chosen
 - `8` quality of life challenge chosen
@@ -122,7 +103,7 @@ Suggested icon:
 
 ### 3. Decision Checks Mastered
 
-Variable: `filter-progress`
+Variable: `fltr-progress`
 
 Purpose:
 
@@ -160,7 +141,7 @@ Suggested icon:
 
 ### 4. Concepts Understood
 
-Variable: `knowledge-progress`
+Variable: `knwl-progress`
 
 Purpose:
 
@@ -194,38 +175,62 @@ Suggested icon:
 
 The idea of incrementing knowledge progress when the vendor or Facilyn explains something is good, but it needs guardrails so the value does not increase repeatedly on revisits.
 
-### Recommended implementation
+`knwl-progress += 1`
 
-Use one boolean flag per knowledge unlock, plus a guarded increment.
 
-Example pattern:
-
-```dry
-on-arrival: {! 
-  if (!Q['knowledge-complexity']) { 
-    Q['knowledge-complexity'] = 1; 
-    Q['knowledge-progress'] = (Q['knowledge-progress'] || 0) + 1; 
-  } 
-!}
-```
-
-### Why this is better than a raw `knowledge-progress += 1`
-
-- it prevents duplicate progress on revisits
-- it keeps each concept collectible exactly once
-- it makes achievements easy to trigger from specific knowledge flags
-
-### Important Dendry note
-
-I did not find evidence in the current codebase that plain `knowledge-progress += 1` is already being used as a shorthand.
-
-The safe approach is to use the JavaScript block form already described in the Dendry syntax reference:
+I do not want to use the JavaScript block form described in the Dendry syntax reference:
 
 ```dry
 on-arrival: {! Q.quality1 = 10; Q.quality2 = Q.quality1 * 2 !}
 ```
 
-So the plan should assume guarded JavaScript-block increments rather than relying on unsupported shorthand syntax.
+So the planning assumption should be:
+
+- `knwl-progress` is only advanced at one-time unlock moments
+- each insight needs its own unlock flag so the progress does not increase on revisits
+- the UI should read from those unlock flags to show the latest unlocked insight and the concept chips
+
+### Additional variables for insight unlocks
+
+Yes, we should introduce more variables for knowledge timing.
+
+The four track variables are not enough on their own, because the game also needs to know:
+
+- whether an insight has already been unlocked
+- which insight was unlocked most recently
+- which small concept chips are eligible to appear in the left sidebar
+
+Recommended additional knowledge-state variables:
+
+- `insight-last`
+- `insight-last-icon`
+- `insight-complexity`
+- `insight-whole`
+- `insight-decision-makers`
+- `insight-resource-base`
+- `insight-holistic-context`
+- `insight-filters`
+- `insight-cause-effect`
+- `insight-weak-link`
+- `insight-marginal-reaction`
+- `insight-gross-profit`
+- `insight-source-use`
+- `insight-sustainability`
+- `insight-gut-feel`
+
+Recommended use:
+
+- each `insight-*` variable acts as a one-time unlock flag
+- `insight-last` stores the label for the latest unlocked insight
+- `insight-last-icon` stores the icon shown next to the latest insight line
+
+This allows the left sidebar to cleanly show lines such as:
+
+- `New insight: Weak Link`
+- `New insight: Cause and Effect`
+- `New insight: Whole Under Management`
+
+And it also allows the right sidebar to unlock full codex entries at the correct time.
 
 ## Achievement System
 
@@ -365,14 +370,47 @@ Good additions:
 
 Replace the current single top block in `progress.scene.dry` with a compact dashboard.
 
+### Left sidebar
+
+The left sidebar should remain the player-state and decision-support area.
+
+Recommended contents:
+
+- progress tracks
+- latest achievement
+- compact Holistic Context summary
+- current decision or current filter status
+- maybe 2–3 tiny unlocked concept chips
+- latest unlocked insight line
+
+Example latest insight lines:
+
+- `New insight: Weak Link`
+- `New insight: Cause and Effect`
+- `New insight: Whole Under Management`
+
+### Right sidebar
+
+The right sidebar should remain the knowledge and reference area.
+
+Recommended contents:
+
+- full knowledge codex
+- unlocked explanations
+- deeper concept descriptions
+- optional grouped sections such as `Foundations`, `Context`, and `Filters`
+
 ### Recommended order
 
 1. dashboard title
 2. four track cards
 3. latest achievement line
-4. earned achievement badges
-5. existing written recap content
-6. final summary card once the framework is complete
+4. latest unlocked insight line
+5. earned achievement badges
+6. compact Holistic Context summary
+7. current decision or current filter status
+8. optional concept chips
+9. final summary card once the framework is complete
 
 ### Dashboard title
 
@@ -407,6 +445,20 @@ Version 1 can simply show the most recently unlocked achievement until another o
 
 That gives the effect without introducing complex expiry logic.
 
+### Latest insight line
+
+Show a short line for the most recently unlocked knowledge beat:
+
+- `📘 New insight: Weak Link`
+- `📘 New insight: Cause and Effect`
+- `📘 New insight: Whole Under Management`
+
+Version 1 should keep this simple:
+
+- one line only
+- replaced whenever a newer insight unlocks
+- driven by `insight-last` and optionally `insight-last-icon`
+
 ### Earned badges
 
 Show compact earned badges only for unlocked achievements.
@@ -418,6 +470,24 @@ Badges should be short and elegant:
 - `✧ Context Keeper`
 - `🧭 Filter Navigator`
 - `✦ Long View`
+
+### Concept chips
+
+Add 2–3 very small chips for recently relevant unlocked concepts.
+
+Examples:
+
+- `Whole Under Management`
+- `Weak Link`
+- `Cause and Effect`
+
+These should be:
+
+- short
+- optional
+- secondary to the main track cards
+
+They should hint at unlocked knowledge without replacing the right-sidebar codex.
 
 ## Completed State and Animation
 
@@ -489,13 +559,17 @@ Initialize all new visible-progress variables and achievement variables.
 
 Recommended initial values:
 
-- `journey-progress = 0`
-- `context-progress = 0`
-- `filter-progress = 0`
-- `knowledge-progress = 0`
+- `jrny-progress = 0`
+- `hctx-progress = 0`
+- `fltr-progress = 0`
+- `knwl-progress = 0`
 - `achievement-count = 0`
+- `insight-last = 0`
+- `insight-last-icon = 0`
 
 Initialize achievement flags to `0` only if needed for clarity.
+
+Also initialize the one-time insight unlock flags only if explicit initialization makes the implementation easier to read.
 
 ### 2. Narrative milestone scenes
 
