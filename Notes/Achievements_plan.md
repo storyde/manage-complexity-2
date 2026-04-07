@@ -2,7 +2,7 @@
 
 ## Goal
 
-Replace the single visible progress bar with a small progress dashboard that feels more like a game system while still fitting the reflective tone of the project.
+Replace the single visible progress bar in the scene progress.scene with a small progress dashboard that feels more like a game system while still fitting the reflective tone of the project.
 
 Keep the existing `progress` variable as the hidden backbone for scene flow and compatibility, but introduce separate track variables and qdisplay files for the visible progression system.
 
@@ -19,15 +19,17 @@ Keep the existing `progress` variable as the hidden backbone for scene flow and 
 - `hctx-progress` for **Holistic Context Forged**
 - `fltr-progress` for **Decision Checks Mastered**
 - `knwl-progress` for **Concepts Understood**
+- `knwl-progress-bar` for progress bar
 
 ## New Qdisplay Files
 
 Create one qdisplay per track:
 
-- `source/qdisplays/qjrny_progress.qdisplay.dry`
-- `source/qdisplays/qhctx_progress.qdisplay.dry`
-- `source/qdisplays/qfltr_progress.qdisplay.dry`
-- `source/qdisplays/qknwl_progress.qdisplay.dry`
+- `source/qdisplays/qjrny-progress.qdisplay.dry`
+- `source/qdisplays/qhctx-progress.qdisplay.dry`
+- `source/qdisplays/qfltr-progress.qdisplay.dry`
+- `source/qdisplays/qknwl-progress.qdisplay.dry`
+- `source/qdisplays/qknwl-progress-bar.qdisplay.dry`
 
 The current `qprogress.qdisplay.dry` can remain temporarily during migration and then be removed after the new sidebar layout is stable.
 
@@ -80,18 +82,18 @@ Recommended scale:
 
 Recommended increments:
 
-- `1` decision-makers chosen
-- `2` physical resources chosen
-- `3` human resources chosen
+- `1` decision-makers defined
+- `2` physical resources defined
+- `3` human resources defined
 - `4` money defined
 - `5` statement of purpose complete for organisations, or no award for non-org play
-- `6` quality of life economy chosen
-- `7` quality of life relationships chosen
-- `8` quality of life challenge chosen
-- `9` quality of life growth chosen
-- `10` quality of life purpose chosen
-- `11` quality of life contribution or accomplishment cluster complete
-- `12` future resource base complete and holistic context forged
+- `6` quality of life economy 
+- `7` quality of life relationships 
+- `8` quality of life challenge 
+- `9` quality of life growth 
+- `10` quality of life purpose 
+- `11` quality of life contribution or accomplishment 
+- `12` future resource base 
 
 Implementation note:
 
@@ -116,12 +118,12 @@ Recommended scale:
 Recommended increments:
 
 - `1` Cause and Effect
-- `2` Weak Link complete
+- `2` Weak Links 
 - `3` Marginal Reaction
 - `4` Gross Profit
-- `5` Source and Use complete
-- `6` Sustainability complete
-- `7` Gut Feel complete
+- `5` Source and Use 
+- `6` Sustainability 
+- `7` Gut Feel 
 
 Important design choice:
 
@@ -148,24 +150,31 @@ Purpose:
 - reward learning moments
 - make the educational side of the story feel collectible and visible
 
-Recommended scale:
-
-- `0..12`
-
 Recommended knowledge beats:
 
 - `1` Complexity introduced
 - `2` Whole Under Management introduced
 - `3` Decision makers introduced
-- `4` Resource base introduced
-- `5` Holistic context introduced
-- `6` Filter questions introduced
-- `7` Cause and effect explained
-- `8` Weak link explained
-- `9` Marginal reaction explained
-- `10` Gross profit explained
-- `11` Energy or money source and use explained
-- `12` Sustainability and gut feel arc completed
+- `4` Quality of life introduced
+- `5` Resource base introduced
+- `6` Holistic context introduced
+- `7` Filter questions introduced
+- `8` Dust storms explained (scene will be created in the future)
+- `9` Plant oxidation explained (scene will be created in the future)
+- `10` Additional things explained
+
+Recommended scale:
+
+- `0..15`
+
+Recommended qknwl-progress qdisplay beats:
+
+(0..0) <progress value="0" max="10">0</progress>
+(1..1) <progress value="1" max="10">1</progress>
+(2..2) <progress value="2" max="10">2</progress>
+
+(10..10) <progress value="10" max="10">10</progress>
+
 
 Suggested icon:
 
@@ -173,62 +182,49 @@ Suggested icon:
 
 ## Recommendation for Knowledge Progress
 
-The idea of incrementing knowledge progress when the vendor or Facilyn explains something is good, but it needs guardrails so the value does not increase repeatedly on revisits.
-
 `knwl-progress += 1`
-
-
-I do not want to use the JavaScript block form described in the Dendry syntax reference:
-
-```dry
-on-arrival: {! Q.quality1 = 10; Q.quality2 = Q.quality1 * 2 !}
-```
 
 So the planning assumption should be:
 
-- `knwl-progress` is only advanced at one-time unlock moments
-- each insight needs its own unlock flag so the progress does not increase on revisits
-- the UI should read from those unlock flags to show the latest unlocked insight and the concept chips
+- `knwl-progress` needs a qdisplay file and does not increase repeatedly on revisiting filter questions, because it is not used in the filter questions, only in their introduction
 
-### Additional variables for insight unlocks
+### Additional variables for knowledge unlocks
 
-Yes, we should introduce more variables for knowledge timing.
+We should introduce more variables for knowledge timing.
 
 The four track variables are not enough on their own, because the game also needs to know:
 
-- whether an insight has already been unlocked
-- which insight was unlocked most recently
+- whether knowledge has already been unlocked
+- which knowledge was unlocked most recently
 - which small concept chips are eligible to appear in the left sidebar
 
 Recommended additional knowledge-state variables:
 
-- `insight-last`
-- `insight-last-icon`
-- `insight-complexity`
-- `insight-whole`
-- `insight-decision-makers`
-- `insight-resource-base`
-- `insight-holistic-context`
-- `insight-filters`
-- `insight-cause-effect`
-- `insight-weak-link`
-- `insight-marginal-reaction`
-- `insight-gross-profit`
-- `insight-source-use`
-- `insight-sustainability`
-- `insight-gut-feel`
+- `knwl-last`
+- `knwl-complexity`
+- `knwl-whole`
+- `knwl-decision-makers`
+- `knwl-resource-base`
+- `knwl-holistic-context`
+- `knwl-filters`
+- `knwl-cause-effect`
+- `knwl-weak-link`
+- `knwl-marginal-reaction`
+- `knwl-gross-profit`
+- `knwl-source-use`
+- `knwl-sustainability`
+- `knwl-gut-feel`
 
 Recommended use:
 
-- each `insight-*` variable acts as a one-time unlock flag
-- `insight-last` stores the label for the latest unlocked insight
-- `insight-last-icon` stores the icon shown next to the latest insight line
+- each `knwl-*` variable acts as a one-time unlock flag
+- `knwl-last` stores the label for the latest unlocked knowledge
 
 This allows the left sidebar to cleanly show lines such as:
 
-- `New insight: Weak Link`
-- `New insight: Cause and Effect`
-- `New insight: Whole Under Management`
+- `New knwl: Weak Link`
+- `New knwl: Cause and Effect`
+- `New knwl: Whole Under Management`
 
 And it also allows the right sidebar to unlock full codex entries at the correct time.
 
@@ -239,8 +235,8 @@ And it also allows the right sidebar to unlock full codex entries at the correct
 Add simple qualities for achievement tracking:
 
 - `achievement-last`
-- `achievement-last-icon`
-- `achievement-count`
+- `achievement-icon = Q.achievement-icon + icon`
+- `achievement-count += 1`
 - `achievement-first-landing`
 - `achievement-tea-companion`
 - `achievement-context-keeper`
@@ -381,13 +377,13 @@ Recommended contents:
 - compact Holistic Context summary
 - current decision or current filter status
 - maybe 2–3 tiny unlocked concept chips
-- latest unlocked insight line
+- latest unlocked knowledge line
 
-Example latest insight lines:
+Example latest knowledge lines:
 
-- `New insight: Weak Link`
-- `New insight: Cause and Effect`
-- `New insight: Whole Under Management`
+- `New knowledge: Weak Link`
+- `New knowledge: Cause and Effect`
+- `New knowledge: Whole Under Management`
 
 ### Right sidebar
 
